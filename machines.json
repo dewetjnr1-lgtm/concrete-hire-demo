@@ -1,0 +1,66 @@
+[
+  {
+    "id": "concrete-mixer",
+    "name": "Concrete Mixer",
+    "description": "Electric 140L drum mixer. Great for small pours and repairs.",
+    "dailyRate": 65,
+    "available": true,
+    "image": "images/concrete-mixer.svg"
+  },
+  {
+    "id": "power-trowel",
+    "name": "Power Trowel",
+    "description": "Petrol walk-behind trowel for a smooth, hard-wearing finish.",
+    "dailyRate": 120,
+    "available": true,
+    "image": "images/power-trowel.svg"
+  },
+  {
+    "id": "concrete-vibrator",
+    "name": "Concrete Vibrator",
+    "description": "Poker vibrator to remove air pockets from fresh concrete.",
+    "dailyRate": 55,
+    "available": false,
+    "image": "images/concrete-vibrator.svg"
+  },
+  {
+    "id": "vibrating-screed",
+    "name": "Vibrating Screed",
+    "description": "3 m screed board for levelling slabs quickly and evenly.",
+    "dailyRate": 95,
+    "available": true,
+    "image": "images/vibrating-screed.svg"
+  },
+  {
+    "id": "concrete-saw",
+    "name": "Concrete Saw",
+    "description": "Petrol cut-off saw for control joints and cutting slabs.",
+    "dailyRate": 110,
+    "available": true,
+    "image": "images/concrete-saw.svg"
+  },
+  {
+    "id": "rebar-bender",
+    "name": "Rebar Bender",
+    "description": "Bench bender for bending reinforcing bar up to 20 mm.",
+    "dailyRate": 70,
+    "available": true,
+    "image": "images/rebar-bender.svg"
+  },
+  {
+    "id": "plate-compactor",
+    "name": "Plate Compactor",
+    "description": "Compacts gravel, sand and road base before you pour.",
+    "dailyRate": 85,
+    "available": false,
+    "image": "images/plate-compactor.svg"
+  },
+  {
+    "id": "concrete-line-pump",
+    "name": "Concrete Line Pump",
+    "description": "Trailer line pump to move concrete to hard-to-reach spots.",
+    "dailyRate": 450,
+    "available": true,
+    "image": "images/concrete-line-pump.svg"
+  }
+]
