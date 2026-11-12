@@ -168,6 +168,7 @@ function renderTech(box, job, m) {
             <label>Work completed / notes<textarea rows="4" data-i="${i}" data-f="work">${esc(it.work)}</textarea></label>
             <label>Hours<select data-i="${i}" data-f="hours">${hoursOptions(it.hours)}</select></label>
             <h3>Parts used</h3>
+            <button type="button" class="btn browse" data-browse="${i}">Browse Worx+ parts by category</button>
             ${it.parts.map((p, k) => `
               <div class="partwrap"><div class="part">
                 <input placeholder="Search parts or type one"  value="${esc(p.desc)}" data-i="${i}" data-p="${k}" data-f="desc" autocomplete="off">
@@ -176,7 +177,6 @@ function renderTech(box, job, m) {
                 <button type="button" class="x" aria-label="Remove part" data-rm="${i}.${k}">&times;</button>
               </div>
               <div class="sugg" hidden></div>
-              <button type="button" class="btn2 browse" data-browse="${i}.${k}">Browse by category</button>
               <label class="chk"><input type="checkbox" data-save="${i}.${k}"> <span>Add to our parts list</span></label></div>`).join("")}
             <div class="actions"><button type="button" class="btn2" data-addpart="${i}">+ Add part</button>${job.items.length > 1 ? `<button type="button" class="btn2" data-rmitem="${i}">Remove item #${i + 1}</button>` : ""}</div>
           </div>`).join("")}
@@ -245,9 +245,11 @@ function renderTech(box, job, m) {
       label.textContent = "Added to parts list \u2713";
     });
     box.querySelectorAll("[data-browse]").forEach(b => b.onclick = () => {
-      const [i, k] = b.dataset.browse.split(".").map(Number);
+      const i = +b.dataset.browse;
       openBrowser(sel => {
-        const p = job.items[i].parts[k];
+        const it = job.items[i];
+        let p = it.parts.find(x => !x.desc && !x.pn && !x.qty);       // first empty row, else add one
+        if (!p) { p = { desc: "", pn: "", qty: "" }; it.parts.push(p); }
         p.desc = sel.description; p.pn = sel.partNumber; p.rrp = sel.rrp != null ? sel.rrp : "";
         if (job.status === "received") job.status = "diagnosing";
         save(); draw();

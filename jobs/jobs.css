@@ -42,7 +42,7 @@ table.sum th{width:38%;color:var(--ink2);font-weight:650}
 .sugg button:hover,.sugg button:focus{background:rgba(12,112,57,.08);outline:none}
 .sugg small{display:block;color:var(--ink2);margin-top:2px}
 .sugg .more{margin:0;padding:8px 12px;font-size:.8rem;color:var(--ink2)}
-.browse{width:100%;margin:2px 0 6px;min-height:44px;font-size:.9rem}
+.browse{margin:4px 0 12px;font-size:1rem}
 .browser h2{margin-bottom:0}.crumbs{margin:4px 0 10px;font-size:.85rem;color:var(--ink2)}
 .back{margin:0 0 10px;min-height:44px;padding:8px 16px}
 .bfilter{margin:0 0 10px}
