@@ -1,66 +1,8 @@
 [
-  {
-    "id": "concrete-mixer",
-    "name": "Concrete Mixer",
-    "description": "Electric 140L drum mixer. Great for small pours and repairs.",
-    "dailyRate": 65,
-    "available": true,
-    "image": "images/concrete-mixer.svg"
-  },
-  {
-    "id": "power-trowel",
-    "name": "Power Trowel",
-    "description": "Petrol walk-behind trowel for a smooth, hard-wearing finish.",
-    "dailyRate": 120,
-    "available": true,
-    "image": "images/power-trowel.svg"
-  },
-  {
-    "id": "concrete-vibrator",
-    "name": "Concrete Vibrator",
-    "description": "Poker vibrator to remove air pockets from fresh concrete.",
-    "dailyRate": 55,
-    "available": false,
-    "image": "images/concrete-vibrator.svg"
-  },
-  {
-    "id": "vibrating-screed",
-    "name": "Vibrating Screed",
-    "description": "3 m screed board for levelling slabs quickly and evenly.",
-    "dailyRate": 95,
-    "available": true,
-    "image": "images/vibrating-screed.svg"
-  },
-  {
-    "id": "concrete-saw",
-    "name": "Concrete Saw",
-    "description": "Petrol cut-off saw for control joints and cutting slabs.",
-    "dailyRate": 110,
-    "available": true,
-    "image": "images/concrete-saw.svg"
-  },
-  {
-    "id": "rebar-bender",
-    "name": "Rebar Bender",
-    "description": "Bench bender for bending reinforcing bar up to 20 mm.",
-    "dailyRate": 70,
-    "available": true,
-    "image": "images/rebar-bender.svg"
-  },
-  {
-    "id": "plate-compactor",
-    "name": "Plate Compactor",
-    "description": "Compacts gravel, sand and road base before you pour.",
-    "dailyRate": 85,
-    "available": false,
-    "image": "images/plate-compactor.svg"
-  },
-  {
-    "id": "concrete-line-pump",
-    "name": "Concrete Line Pump",
-    "description": "Trailer line pump to move concrete to hard-to-reach spots.",
-    "dailyRate": 450,
-    "available": true,
-    "image": "images/concrete-line-pump.svg"
-  }
+  {"id":"floor-saw","name":"Floor Saw – Medium Self-Propelled Petrol","description":"Self-propelled petrol floor saw for deep cutting in concrete and asphalt (up to 240 mm).","dailyRate":110,"available":true,"image":"img/floor-saw.jpg"},
+  {"id":"hand-saw","name":"Electric Hand Saw – 240v","description":"Low-emission electric hand saw for wet cutting concrete (up to 125 mm).","dailyRate":55,"available":true,"image":"img/hand-saw.jpg"},
+  {"id":"grinder","name":"Planetary Grinder – 240v 500 Series","description":"Compact electric floor grinder for levelling and preparing concrete surfaces.","dailyRate":120,"available":true,"image":"img/grinder.jpg"},
+  {"id":"hammer","name":"Demolition Hammer – Medium Hilti","description":"Portable electric demolition hammer supplied with a trolley.","dailyRate":95,"available":true,"image":"img/hammer.jpg"},
+  {"id":"scarifier","name":"Scarifier – Medium 415v","description":"Electric scarifier for removing coatings and roughening concrete surfaces.","dailyRate":130,"available":true,"image":"img/scarifier.jpg"},
+  {"id":"vacuum","name":"Vacuum – Medium 240v","description":"Powerful dust control with dual filtration. Pairs with grinders and saws.","dailyRate":60,"available":true,"image":"img/vacuum.jpg"}
 ]

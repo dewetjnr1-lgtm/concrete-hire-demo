@@ -1,6 +1,6 @@
 :root{
-  --ink:#16181b;--ink2:#4a4f56;--mute:#7b8088;
-  --acc:#ffc400;--acc-d:#e0a800;--ok:#12a150;
+  --ink:#0d1d12;--ink2:#4a4f56;--mute:#7b8088;
+  --acc:#0c7039;--acc-d:#095a2e;--grey:#777;--ok:#12a150;
   --line:rgba(22,24,27,.10);--card:rgba(255,255,255,.78);
   --r:20px;
   --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .1  0 0 0 0 .1  0 0 0 0 .1  0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
@@ -14,17 +14,10 @@ body{
   background:var(--blotch),var(--noise),#cfd0cd;
 }
 /* header */
-.hdr{
-  position:relative;display:flex;align-items:center;gap:16px;
-  padding:28px 20px 30px;color:#fff;overflow:hidden;
-  background:linear-gradient(135deg,#1b1d21,#2c2f35);
-  border-bottom:4px solid var(--acc);
-}
-.hdr::before{content:"";position:absolute;inset:0;background:var(--noise);opacity:.35;mix-blend-mode:overlay;pointer-events:none}
-.hdr>*{position:relative}
-.logo{width:56px;height:56px;flex:none;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.35)}
-.hdr h1{margin:0;font-size:clamp(1.6rem,5vw,2.2rem);font-weight:800;letter-spacing:-.02em}
-.hdr p{margin:4px 0 0;color:var(--acc);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:.78rem}
+.hdr{display:flex;align-items:center;gap:16px;padding:14px 20px;background:#fff;border-bottom:4px solid var(--acc);box-shadow:0 6px 24px -14px rgba(0,0,0,.45)}
+.logo{height:42px;width:auto;max-width:70%;display:block}
+.tag{margin:0 0 0 auto;color:var(--grey);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.72rem;text-align:right}
+@media(max-width:520px){.tag{display:none}}
 main{max-width:1080px;margin:0 auto;padding:28px 16px 56px}
 .intro{margin:0 0 20px;font-size:1.05rem;color:var(--ink2);max-width:46ch}
 .status{text-align:center;color:var(--ink2)}
@@ -44,10 +37,10 @@ main{max-width:1080px;margin:0 auto;padding:28px 16px 56px}
 .card:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
 .card.out{cursor:not-allowed}
 .card.out:hover{transform:none}
-.card.out img{filter:grayscale(1);opacity:.55}
+.card.out img{filter:grayscale(1);opacity:.5}
 .card img{
-  width:100%;aspect-ratio:4/3;display:block;object-fit:contain;
-  background:linear-gradient(160deg,#e4e5e2,#c9cbc7);
+  width:100%;aspect-ratio:1/1;display:block;object-fit:contain;
+  background:#fff;padding:12px;
   border-bottom:1px solid var(--line);
 }
 .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
@@ -56,7 +49,7 @@ main{max-width:1080px;margin:0 auto;padding:28px 16px 56px}
 .row{display:flex;justify-content:space-between;align-items:center;margin-top:6px;gap:8px}
 .price{font-weight:800;font-size:1.05rem}
 .badge{padding:6px 12px;border-radius:99px;font-size:.78rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase}
-.badge.ok{background:rgba(18,161,80,.14);color:#0c7a3b}
+.badge.ok{background:rgba(12,112,57,.12);color:#0c7039}
 .badge.no{background:rgba(22,24,27,.08);color:var(--mute)}
 /* booking sheet */
 .overlay{position:fixed;inset:0;background:rgba(14,15,18,.6);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);display:flex;align-items:flex-end;justify-content:center;z-index:10}
@@ -78,11 +71,11 @@ input,select,textarea{
   font:inherit;font-weight:400;color:var(--ink);
   background:rgba(255,255,255,.85);border:1.5px solid rgba(22,24,27,.16);border-radius:12px;
 }
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 4px rgba(255,196,0,.5)}
-.btn{
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 4px rgba(12,112,57,.28)}
+.btn{color:#fff;
   width:100%;margin-top:18px;min-height:54px;font:inherit;font-size:1.05rem;font-weight:800;letter-spacing:.01em;
-  background:var(--acc);color:var(--ink);border:0;border-radius:14px;cursor:pointer;
-  box-shadow:0 8px 20px -8px rgba(224,168,0,.9);transition:transform .12s ease,background .12s ease;
+  background:var(--acc);border:0;border-radius:14px;cursor:pointer;
+  box-shadow:0 8px 20px -8px rgba(12,112,57,.8);transition:transform .12s ease,background .12s ease;
 }
 .btn:hover{background:var(--acc-d)}.btn:active{transform:scale(.985)}
 .error{color:#b3162e;font-weight:650;min-height:1.2em;margin:12px 0 0}
