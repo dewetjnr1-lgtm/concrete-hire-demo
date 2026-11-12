@@ -1,4 +1,6 @@
 // =====================================================================
+// To connect the private database later: replace load()/save()/loadExtra()/saveExtra()
+// below (the only places data is read or written). Everything else stays the same.
 // Workshop job cards – PROOF OF CONCEPT
 // Data is saved in this phone's browser only (localStorage), so use
 // SAMPLE DATA ONLY. A real version needs a private shared database.
@@ -21,13 +23,21 @@ function load() {
 }
 let db = load();
 function save() { try { localStorage.setItem(KEY, JSON.stringify(db)); } catch (e) {} }
+// -- Parts added by techs ("Add to our parts list"). Same idea: this phone only until the database is connected.
+const EXTRA_KEY = "ch_extra_parts_v1";
+function loadExtra() { try { const d = JSON.parse(localStorage.getItem(EXTRA_KEY)); if (Array.isArray(d)) return d; } catch (e) {} return []; }
+function saveExtra(l) { try { localStorage.setItem(EXTRA_KEY, JSON.stringify(l)); } catch (e) {} }
+let EXTRA = loadExtra();
+const allParts = () => SPARES.concat(EXTRA);
+function refreshParts() {
+  document.getElementById("spares").innerHTML = allParts().map(p => `<option value="${esc(p.description)}">${esc(p.partNumber)}</option>`).join("");
+}
 
 const params = new URLSearchParams(location.search);
 const machineId = params.get("m");
 
 fetch("spares.json").then(r => r.json()).then(l => {
-  SPARES = l;
-  document.getElementById("spares").innerHTML = l.map(p => `<option value="${esc(p.description)}">${esc(p.partNumber)}</option>`).join("");
+  SPARES = l; refreshParts();
 }).catch(() => {}).finally(route);
 
 function route() { machineId ? renderMachine(machineId) : renderHome(); }
@@ -38,21 +48,40 @@ const jobNo = j => "JC-" + String(j.n).padStart(4, "0");
 
 // ---------------------------------------------------------------- HOME
 function renderHome() {
-  const list = db.jobs.slice().sort((a, b) => b.n - a.n);
   app.innerHTML = `
     <section class="panel">
-      <h2>All jobs</h2>
-      <p class="muted">Accounts can open any job from here.</p>
-      ${list.length ? list.map(j => { const m = db.machines[j.machineId] || {}; return `
-        <a class="jobrow" href="?m=${esc(j.machineId)}"><span><b>${jobNo(j)} &ndash; ${esc(m.company)}</b><small>${esc(m.name)} ${esc(m.model)} &bull; ${esc(j.date)}</small></span><span class="pill ${j.status}">${STATUS[j.status]}</span></a>`; }).join("")
-        : `<p class="empty">No jobs yet.</p>`}
+      <h2>All jobs &amp; history</h2>
+      <p class="muted">Search by company, machine, model, serial or job number.</p>
+      <input id="q" type="search" placeholder="Search…" autocomplete="off">
+      <div id="list"></div>
     </section>
     <section class="panel">
       <h2>New machine tag</h2>
-      <p class="muted">Creates a unique link for one machine. Write it to an NFC tag once and stick the tag on the machine.</p>
+      <p class="muted">Creates a unique link for one machine. Write it to an NFC tag once and leave the tag on the machine.</p>
       <button class="btn" id="newtag" type="button">Create new machine tag</button>
+    </section>
+    <section class="panel">
+      <h2>Backup</h2>
+      <p class="muted">Downloads every job as one Excel-friendly file. Do this regularly.</p>
+      <button class="btn2" id="all" type="button" style="width:100%">Download all history (.csv)</button>
     </section>`;
+  const draw = () => {
+    const q = document.getElementById("q").value.trim().toLowerCase();
+    const list = db.jobs.slice().sort((a, b) => b.n - a.n).filter(j => {
+      const m = db.machines[j.machineId] || {};
+      return !q || [jobNo(j), m.company, m.name, m.model, m.serial].join(" ").toLowerCase().includes(q);
+    });
+    document.getElementById("list").innerHTML = list.length ? list.map(j => { const m = db.machines[j.machineId] || {}; return `
+      <a class="jobrow" href="?m=${esc(j.machineId)}"><span><b>${jobNo(j)} &ndash; ${esc(m.company)}</b><small>${esc(m.name)} ${esc(m.model)} &bull; ${esc(j.date)}</small></span><span class="pill ${j.status}">${STATUS[j.status]}</span></a>`; }).join("")
+      : `<p class="empty">${q ? "Nothing matches." : "No jobs yet."}</p>`;
+  };
+  document.getElementById("q").oninput = draw; draw();
   document.getElementById("newtag").onclick = () => { location.href = "?m=" + newId(); };
+  document.getElementById("all").onclick = () => {
+    const rows = [CSV_HEAD];
+    db.jobs.slice().sort((a, b) => a.n - b.n).forEach(j => rows.push(...rowsFor(j, db.machines[j.machineId] || {})));
+    download("all-jobs-" + today() + ".csv", toCsv(rows));
+  };
 }
 
 // ------------------------------------------------------------- MACHINE
@@ -140,12 +169,13 @@ function renderTech(box, job, m) {
             <label>Hours<select data-i="${i}" data-f="hours">${hoursOptions(it.hours)}</select></label>
             <h3>Parts used</h3>
             ${it.parts.map((p, k) => `
-              <div class="part">
+              <div class="partwrap"><div class="part">
                 <input list="spares" placeholder="Part (search or type)" value="${esc(p.desc)}" data-i="${i}" data-p="${k}" data-f="desc" autocomplete="off">
                 <input placeholder="Part number" value="${esc(p.pn)}" data-i="${i}" data-p="${k}" data-f="pn" autocomplete="off">
                 <input type="number" inputmode="numeric" min="1" placeholder="Qty" value="${esc(p.qty)}" data-i="${i}" data-p="${k}" data-f="qty">
                 <button type="button" class="x" aria-label="Remove part" data-rm="${i}.${k}">&times;</button>
-              </div>`).join("")}
+              </div>
+              <label class="chk"><input type="checkbox" data-save="${i}.${k}"> <span>Add to our parts list</span></label></div>`).join("")}
             <div class="actions"><button type="button" class="btn2" data-addpart="${i}">+ Add part</button>${job.items.length > 1 ? `<button type="button" class="btn2" data-rmitem="${i}">Remove item #${i + 1}</button>` : ""}</div>
           </div>`).join("")}
         <button type="button" class="btn2" id="additem" style="width:100%">+ Add another work item</button>
@@ -165,12 +195,29 @@ function renderTech(box, job, m) {
       const set = () => {
         if (el.dataset.p != null) {
           const p = it.parts[+el.dataset.p]; p[f] = el.value;
-          if (f === "desc") { const s = SPARES.find(x => x.description === el.value); if (s) { p.pn = s.partNumber; const pn = box.querySelector(`[data-i="${el.dataset.i}"][data-p="${el.dataset.p}"][data-f="pn"]`); if (pn) pn.value = s.partNumber; } }
+          if (f === "desc") { const s = allParts().find(x => x.description === el.value); if (s) { p.pn = s.partNumber; const pn = box.querySelector(`[data-i="${el.dataset.i}"][data-p="${el.dataset.p}"][data-f="pn"]`); if (pn) pn.value = s.partNumber; } }
         } else it[f] = el.value;
         if (job.status === "received") job.status = "diagnosing";
         save();
       };
       el.addEventListener("input", set); el.addEventListener("change", set);
+    });
+    box.querySelectorAll('[data-f="desc"]').forEach(el => el.addEventListener("paste", e => {
+      const t = (e.clipboardData || window.clipboardData).getData("text");
+      if (!/[\t\n]/.test(t)) return;                       // plain text: paste normally
+      const bits = t.split(/\t|\r?\n/).map(x => x.trim()).filter(Boolean);
+      e.preventDefault();
+      const p = job.items[+el.dataset.i].parts[+el.dataset.p];
+      p.desc = bits[0] || ""; if (bits[1]) p.pn = bits[1];
+      save(); draw();
+    }));
+    box.querySelectorAll("[data-save]").forEach(c => c.onchange = () => {
+      const [i, k] = c.dataset.save.split(".").map(Number); const p = job.items[i].parts[k];
+      const label = c.parentElement.querySelector("span");
+      if (!c.checked) return;
+      if (!p.desc.trim()) { c.checked = false; label.textContent = "Enter the part first"; return; }
+      if (!allParts().some(x => x.description === p.desc.trim())) { EXTRA.push({ description: p.desc.trim(), partNumber: p.pn.trim() }); saveExtra(EXTRA); refreshParts(); }
+      label.textContent = "Added to parts list \u2713";
     });
     box.querySelectorAll("[data-addpart]").forEach(b => b.onclick = () => { job.items[+b.dataset.addpart].parts.push({ desc: "", pn: "", qty: "" }); save(); draw(); });
     box.querySelectorAll("[data-rm]").forEach(b => b.onclick = () => { const [i, k] = b.dataset.rm.split(".").map(Number); const ps = job.items[i].parts; ps.splice(k, 1); if (!ps.length) ps.push({ desc: "", pn: "", qty: "" }); save(); draw(); });
@@ -189,15 +236,22 @@ function renderTech(box, job, m) {
 }
 
 // ------------------------------------------------------------ ACCOUNTS
-function csvFor(job, m) {
-  const head = ["Job No", "Date", "Company", "Contact", "Machine", "Model", "Serial", "Tech", "Work item", "Fault found", "Work completed", "Hours", "Part description", "Part number", "Qty"];
-  const rows = [head];
+const CSV_HEAD = ["Job No", "Date", "Company", "Contact", "Machine", "Model", "Serial", "Tech", "Work item", "Fault found", "Work completed", "Hours", "Part description", "Part number", "Qty"];
+const toCsv = rows => "\ufeff" + rows.map(r => r.map(v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"').join(",")).join("\r\n");
+function download(name, text) {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], { type: "text/csv;charset=utf-8" }));
+  a.download = name; document.body.appendChild(a); a.click(); a.remove();
+}
+function rowsFor(job, m) {
+  const rows = [];
   job.items.forEach((it, i) => {
     const parts = it.parts.filter(p => p.desc || p.pn || p.qty);
     (parts.length ? parts : [{ desc: "", pn: "", qty: "" }]).forEach(p => rows.push([jobNo(job), job.date, m.company, m.contact, m.name, m.model, m.serial, job.tech, i + 1, it.fault, it.work, it.hours, p.desc, p.pn, p.qty]));
   });
-  return "﻿" + rows.map(r => r.map(v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"').join(",")).join("\r\n");
+  return rows;
 }
+const csvFor = (job, m) => toCsv([CSV_HEAD].concat(rowsFor(job, m)));
 function renderAccounts(box, job, m, readonly) {
   const totalHours = job.items.reduce((s, it) => s + (parseFloat(it.hours) || 0), 0);
   const subject = "Job ready to quote: " + jobNo(job) + " - " + m.company + " - " + m.name;
@@ -227,9 +281,7 @@ function renderAccounts(box, job, m, readonly) {
       ${readonly || job.status === "quoted" ? "" : `<div class="actions"><button class="btn2" id="reopen" type="button">Send back to tech</button><button class="btn2" id="quoted" type="button">Mark as quoted</button></div>`}
     </section>`;
   box.querySelector("#csv").onclick = () => {
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob([csvFor(job, m)], { type: "text/csv;charset=utf-8" }));
-    a.download = jobNo(job) + ".csv"; document.body.appendChild(a); a.click(); a.remove();
+    download(jobNo(job) + ".csv", csvFor(job, m));
   };
   const ro = box.querySelector("#reopen"); if (ro) ro.onclick = () => { job.status = "diagnosing"; save(); renderMachine(job.machineId); };
   const q = box.querySelector("#quoted"); if (q) q.onclick = () => { job.status = "quoted"; save(); renderMachine(job.machineId); };

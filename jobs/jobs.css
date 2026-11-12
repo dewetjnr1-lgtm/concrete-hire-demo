@@ -32,3 +32,7 @@ table.sum th{width:38%;color:var(--ink2);font-weight:650}
 .empty{color:var(--ink2);text-align:center;padding:12px 0}
 .ok{color:var(--acc);font-weight:650}
 .steps{display:flex;gap:6px;margin:10px 0 2px;flex-wrap:wrap}
+.partwrap{border-top:1px dashed rgba(13,29,18,.18)}
+.partwrap .part{border-top:0;padding-bottom:2px}
+.chk{display:flex;align-items:center;gap:8px;margin:2px 0 10px;font-size:.85rem;font-weight:500;color:var(--ink2)}
+.chk input{width:20px;height:20px;min-height:0;margin:0;-webkit-appearance:auto;appearance:auto}
