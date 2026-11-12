@@ -30,7 +30,7 @@ function saveExtra(l) { try { localStorage.setItem(EXTRA_KEY, JSON.stringify(l))
 let EXTRA = loadExtra();
 const allParts = () => SPARES.concat(EXTRA);
 function refreshParts() {}   // search list is built on demand (see showSugg)
-const hay = p => p._h || (p._h = (p.description + " " + p.partNumber + " " + (p.brand || "")).toLowerCase());
+const hay = p => p._h || (p._h = (p.description + " " + p.partNumber + " " + (p.brand || "") + " " + (p.cat || "")).toLowerCase());
 
 const params = new URLSearchParams(location.search);
 const machineId = params.get("m");
@@ -176,6 +176,7 @@ function renderTech(box, job, m) {
                 <button type="button" class="x" aria-label="Remove part" data-rm="${i}.${k}">&times;</button>
               </div>
               <div class="sugg" hidden></div>
+              <button type="button" class="btn2 browse" data-browse="${i}.${k}">Browse by category</button>
               <label class="chk"><input type="checkbox" data-save="${i}.${k}"> <span>Add to our parts list</span></label></div>`).join("")}
             <div class="actions"><button type="button" class="btn2" data-addpart="${i}">+ Add part</button>${job.items.length > 1 ? `<button type="button" class="btn2" data-rmitem="${i}">Remove item #${i + 1}</button>` : ""}</div>
           </div>`).join("")}
@@ -243,6 +244,15 @@ function renderTech(box, job, m) {
       if (!allParts().some(x => x.description === p.desc.trim())) { EXTRA.push({ description: p.desc.trim(), partNumber: p.pn.trim() }); saveExtra(EXTRA); refreshParts(); }
       label.textContent = "Added to parts list \u2713";
     });
+    box.querySelectorAll("[data-browse]").forEach(b => b.onclick = () => {
+      const [i, k] = b.dataset.browse.split(".").map(Number);
+      openBrowser(sel => {
+        const p = job.items[i].parts[k];
+        p.desc = sel.description; p.pn = sel.partNumber; p.rrp = sel.rrp != null ? sel.rrp : "";
+        if (job.status === "received") job.status = "diagnosing";
+        save(); draw();
+      });
+    });
     box.querySelectorAll("[data-addpart]").forEach(b => b.onclick = () => { job.items[+b.dataset.addpart].parts.push({ desc: "", pn: "", qty: "" }); save(); draw(); });
     box.querySelectorAll("[data-rm]").forEach(b => b.onclick = () => { const [i, k] = b.dataset.rm.split(".").map(Number); const ps = job.items[i].parts; ps.splice(k, 1); if (!ps.length) ps.push({ desc: "", pn: "", qty: "" }); save(); draw(); });
     box.querySelectorAll("[data-rmitem]").forEach(b => b.onclick = () => { job.items.splice(+b.dataset.rmitem, 1); save(); draw(); });
@@ -257,6 +267,64 @@ function renderTech(box, job, m) {
     };
   };
   draw();
+}
+
+// ------------------------------------------------------ CATEGORY BROWSER
+// Categories come from the supplier's own price list ("Parts|Grinders|Bearings").
+const TOP_FIRST = ["Parts", "Accessories"];       // the ones techs use most for repairs
+function buildTree() {
+  const mk = name => ({ name, kids: new Map(), parts: [], n: 0 });
+  const root = mk("All parts");
+  allParts().forEach(p => {
+    let n = root; n.n++;
+    (p.cat || "Added by our techs").split("|").map(x => x.trim()).filter(Boolean).forEach(seg => {
+      if (!n.kids.has(seg)) n.kids.set(seg, mk(seg));
+      n = n.kids.get(seg); n.n++;
+    });
+    n.parts.push(p);
+  });
+  return root;
+}
+function sortedKids(n, isRoot) {
+  const all = [...n.kids.values()];
+  if (!isRoot) return all;
+  return TOP_FIRST.map(t => all.find(k => k.name === t)).filter(Boolean).concat(all.filter(k => !TOP_FIRST.includes(k.name)));
+}
+function openBrowser(pick) {
+  const stack = [buildTree()];
+  const ov = document.createElement("div"); ov.className = "overlay"; document.body.appendChild(ov);
+  const close = () => { ov.remove(); document.removeEventListener("keydown", onKey); };
+  const onKey = e => { if (e.key === "Escape") close(); };
+  document.addEventListener("keydown", onKey);
+  ov.addEventListener("click", e => { if (e.target === ov) close(); });
+  let filter = "";
+  const drawList = () => {
+    const n = stack[stack.length - 1], list = ov.querySelector(".blist");
+    const q = filter.toLowerCase().split(/\s+/).filter(Boolean);
+    const kids = q.length ? [] : sortedKids(n, stack.length === 1);
+    const parts = n.parts.filter(p => q.every(t => hay(p).includes(t)));
+    list.innerHTML = kids.map((k, i) => `<button type="button" class="folder" data-k="${i}"><span>${esc(k.name)}</span><small>${k.n}</small></button>`).join("")
+      + parts.map((p, i) => `<button type="button" class="partbtn" data-p="${i}"><span>${esc(p.description)}</span><small>${esc(p.partNumber)}${p.rrp != null ? " &bull; RRP " + money(p.rrp) : ""}</small></button>`).join("")
+      + (!kids.length && !parts.length ? `<p class="empty">Nothing matches.</p>` : "");
+    list.querySelectorAll(".folder").forEach(b => b.onclick = () => { stack.push(kids[+b.dataset.k]); filter = ""; drawAll(); });
+    list.querySelectorAll(".partbtn").forEach(b => b.onclick = () => { const sel = parts[+b.dataset.p]; close(); pick(sel); });
+  };
+  const drawAll = () => {
+    const n = stack[stack.length - 1];
+    ov.innerHTML = `<div class="sheet browser">
+      <button class="close" type="button" aria-label="Close">&times;</button>
+      <h2>Browse parts</h2>
+      <p class="rate crumbs">${esc(stack.map(x => x.name).join(" \u203a "))}</p>
+      ${stack.length > 1 ? `<button class="btn2 back" type="button">&larr; Back</button>` : ""}
+      ${n.parts.length > 5 ? `<input class="bfilter" type="search" placeholder="Filter this list…" autocomplete="off">` : ""}
+      <div class="blist"></div>
+    </div>`;
+    ov.querySelector(".close").onclick = close;
+    const back = ov.querySelector(".back"); if (back) back.onclick = () => { stack.pop(); filter = ""; drawAll(); };
+    const f = ov.querySelector(".bfilter"); if (f) f.oninput = () => { filter = f.value; drawList(); };
+    drawList();
+  };
+  drawAll();
 }
 
 // ------------------------------------------------------------ ACCOUNTS

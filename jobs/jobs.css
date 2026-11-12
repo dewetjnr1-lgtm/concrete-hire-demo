@@ -42,3 +42,12 @@ table.sum th{width:38%;color:var(--ink2);font-weight:650}
 .sugg button:hover,.sugg button:focus{background:rgba(12,112,57,.08);outline:none}
 .sugg small{display:block;color:var(--ink2);margin-top:2px}
 .sugg .more{margin:0;padding:8px 12px;font-size:.8rem;color:var(--ink2)}
+.browse{width:100%;margin:2px 0 6px;min-height:44px;font-size:.9rem}
+.browser h2{margin-bottom:0}.crumbs{margin:4px 0 10px;font-size:.85rem;color:var(--ink2)}
+.back{margin:0 0 10px;min-height:44px;padding:8px 16px}
+.bfilter{margin:0 0 10px}
+.blist{display:grid;gap:8px}
+.folder,.partbtn{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;text-align:left;min-height:52px;padding:12px 14px;font:inherit;font-size:.95rem;color:var(--ink);background:#fff;border:1.5px solid rgba(13,29,18,.14);border-radius:14px;cursor:pointer}
+.folder{font-weight:700}.folder small{flex:none;background:rgba(12,112,57,.12);color:#0c7039;border-radius:99px;padding:3px 10px;font-weight:700}
+.folder:hover,.partbtn:hover{border-color:var(--acc);background:rgba(12,112,57,.05)}
+.partbtn{flex-direction:column;align-items:flex-start;gap:2px}.partbtn small{color:var(--ink2)}
