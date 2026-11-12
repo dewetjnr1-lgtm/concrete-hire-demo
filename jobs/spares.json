@@ -1,0 +1,10 @@
+[
+  {"description":"SAMPLE – Spark plug","partNumber":"SAMPLE-001"},
+  {"description":"SAMPLE – Air filter","partNumber":"SAMPLE-002"},
+  {"description":"SAMPLE – Drive belt","partNumber":"SAMPLE-003"},
+  {"description":"SAMPLE – Starter battery 12V","partNumber":"SAMPLE-004"},
+  {"description":"SAMPLE – Stop contactor","partNumber":"SAMPLE-005"},
+  {"description":"SAMPLE – Grinding head plate","partNumber":"SAMPLE-006"},
+  {"description":"SAMPLE – Blade guard","partNumber":"SAMPLE-007"},
+  {"description":"SAMPLE – Wheel and bearing set","partNumber":"SAMPLE-008"}
+]
