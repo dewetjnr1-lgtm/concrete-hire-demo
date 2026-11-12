@@ -55,7 +55,7 @@ main{max-width:1080px;margin:0 auto;padding:28px 16px 56px}
 .overlay{position:fixed;inset:0;background:rgba(14,15,18,.6);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);display:flex;align-items:flex-end;justify-content:center;z-index:10}
 .overlay[hidden]{display:none}
 .sheet{
-  position:relative;width:100%;max-width:520px;max-height:92vh;overflow:auto;padding:24px 22px 26px;
+  position:relative;width:100%;max-width:520px;max-height:92vh;overflow-y:auto;overflow-x:hidden;padding:24px 18px 26px;
   background:#f4f4f2;
   border-radius:24px 24px 0 0;box-shadow:0 -20px 60px rgba(0,0,0,.35);
   border-top:4px solid var(--acc);
@@ -67,8 +67,8 @@ main{max-width:1080px;margin:0 auto;padding:28px 16px 56px}
 .close:hover{background:rgba(22,24,27,.14)}
 label{display:block;font-weight:650;font-size:.9rem;margin-top:14px;color:var(--ink)}
 input,select,textarea{
-  display:block;width:100%;margin-top:6px;padding:12px 14px;min-height:48px;
-  font:inherit;font-weight:400;color:var(--ink);
+  display:block;width:100%;max-width:100%;min-width:0;-webkit-appearance:none;appearance:none;margin-top:6px;padding:12px 14px;min-height:48px;
+  font:inherit;font-size:16px;font-weight:400;color:var(--ink);
   background:rgba(255,255,255,.85);border:1.5px solid rgba(22,24,27,.16);border-radius:12px;
 }
 input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 4px rgba(12,112,57,.28)}
@@ -81,3 +81,8 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ink);box
 .error{color:#b3162e;font-weight:650;min-height:1.2em;margin:12px 0 0}
 .hint{text-align:center;font-size:.85rem;color:var(--mute);margin:10px 0 0}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+.sheet form,.sheet label{min-width:0;max-width:100%}
+input[type=date]{text-align:left;-webkit-min-logical-width:0;min-height:48px}
+input[type=date]::-webkit-date-and-time-value{text-align:left;min-width:0}
+select{background-image:linear-gradient(45deg,transparent 50%,#555 50%),linear-gradient(135deg,#555 50%,transparent 50%);background-position:calc(100% - 20px) 55%,calc(100% - 14px) 55%;background-size:6px 6px;background-repeat:no-repeat;padding-right:36px}

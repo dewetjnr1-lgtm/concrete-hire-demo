@@ -80,6 +80,10 @@ form.addEventListener("submit", ev => {
   if (err) return;
   const subject = "Booking request: " + current.name;
   const body = [
+    "Hi Concrete Hire team,",
+    "I'm interested in booking out this unit.",
+    "",
+    "",
     "Machine: " + current.name,
     "Daily rate: " + money(current.dailyRate) + " (AUD)",
     "Customer name: " + $("name").value.trim(),
