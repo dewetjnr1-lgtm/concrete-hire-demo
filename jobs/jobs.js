@@ -29,9 +29,8 @@ function loadExtra() { try { const d = JSON.parse(localStorage.getItem(EXTRA_KEY
 function saveExtra(l) { try { localStorage.setItem(EXTRA_KEY, JSON.stringify(l)); } catch (e) {} }
 let EXTRA = loadExtra();
 const allParts = () => SPARES.concat(EXTRA);
-function refreshParts() {
-  document.getElementById("spares").innerHTML = allParts().map(p => `<option value="${esc(p.description)}">${esc(p.partNumber)}</option>`).join("");
-}
+function refreshParts() {}   // search list is built on demand (see showSugg)
+const hay = p => p._h || (p._h = (p.description + " " + p.partNumber + " " + (p.brand || "")).toLowerCase());
 
 const params = new URLSearchParams(location.search);
 const machineId = params.get("m");
@@ -170,11 +169,12 @@ function renderTech(box, job, m) {
             <h3>Parts used</h3>
             ${it.parts.map((p, k) => `
               <div class="partwrap"><div class="part">
-                <input list="spares" placeholder="Part (search or type)" value="${esc(p.desc)}" data-i="${i}" data-p="${k}" data-f="desc" autocomplete="off">
+                <input placeholder="Search parts or type one"  value="${esc(p.desc)}" data-i="${i}" data-p="${k}" data-f="desc" autocomplete="off">
                 <input placeholder="Part number" value="${esc(p.pn)}" data-i="${i}" data-p="${k}" data-f="pn" autocomplete="off">
                 <input type="number" inputmode="numeric" min="1" placeholder="Qty" value="${esc(p.qty)}" data-i="${i}" data-p="${k}" data-f="qty">
                 <button type="button" class="x" aria-label="Remove part" data-rm="${i}.${k}">&times;</button>
               </div>
+              <div class="sugg" hidden></div>
               <label class="chk"><input type="checkbox" data-save="${i}.${k}"> <span>Add to our parts list</span></label></div>`).join("")}
             <div class="actions"><button type="button" class="btn2" data-addpart="${i}">+ Add part</button>${job.items.length > 1 ? `<button type="button" class="btn2" data-rmitem="${i}">Remove item #${i + 1}</button>` : ""}</div>
           </div>`).join("")}
@@ -201,7 +201,29 @@ function renderTech(box, job, m) {
         save();
       };
       el.addEventListener("input", set); el.addEventListener("change", set);
+      if (f === "desc" && el.dataset.p != null) el.addEventListener("input", () => showSugg(el));
     });
+    const hideAll = () => box.querySelectorAll(".sugg").forEach(x => x.hidden = true);
+    const showSugg = el => {
+      const wrap = el.closest(".partwrap"), list = wrap.querySelector(".sugg");
+      const toks = el.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      if (el.value.trim().length < 2) { list.hidden = true; return; }
+      const hits = allParts().filter(p => toks.every(t => hay(p).includes(t)));
+      if (!hits.length) { list.hidden = true; return; }
+      list.innerHTML = hits.slice(0, 8).map((p, n) => `<button type="button" data-n="${n}"><span>${esc(p.description)}</span><small>${esc(p.partNumber)}${p.brand ? " &bull; " + esc(p.brand) : ""}</small></button>`).join("")
+        + (hits.length > 8 ? `<p class="more">${hits.length - 8} more &ndash; keep typing to narrow it down</p>` : "");
+      list.hidden = false;
+      list.querySelectorAll("button").forEach(btn => btn.onclick = () => {
+        const sel = hits[+btn.dataset.n], p = job.items[+el.dataset.i].parts[+el.dataset.p];
+        p.desc = sel.description; p.pn = sel.partNumber;
+        el.value = sel.description;
+        wrap.querySelector('[data-f="pn"]').value = sel.partNumber;
+        if (job.status === "received") job.status = "diagnosing";
+        save(); list.hidden = true;
+        const q = wrap.querySelector('[data-f="qty"]'); if (q) q.focus();
+      });
+    };
+    document.addEventListener("click", e => { if (!e.target.closest(".partwrap")) hideAll(); });
     box.querySelectorAll('[data-f="desc"]').forEach(el => el.addEventListener("paste", e => {
       const t = (e.clipboardData || window.clipboardData).getData("text");
       if (!/[\t\n]/.test(t)) return;                       // plain text: paste normally

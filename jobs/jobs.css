@@ -36,3 +36,9 @@ table.sum th{width:38%;color:var(--ink2);font-weight:650}
 .partwrap .part{border-top:0;padding-bottom:2px}
 .chk{display:flex;align-items:center;gap:8px;margin:2px 0 10px;font-size:.85rem;font-weight:500;color:var(--ink2)}
 .chk input{width:20px;height:20px;min-height:0;margin:0;-webkit-appearance:auto;appearance:auto}
+.sugg{border:1.5px solid rgba(13,29,18,.16);border-radius:12px;background:#fff;margin:2px 0 8px;overflow:hidden;box-shadow:0 10px 24px -12px rgba(0,0,0,.4)}
+.sugg[hidden]{display:none}
+.sugg button{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);background:#fff;padding:10px 12px;font:inherit;font-size:.9rem;cursor:pointer;min-height:48px}
+.sugg button:hover,.sugg button:focus{background:rgba(12,112,57,.08);outline:none}
+.sugg small{display:block;color:var(--ink2);margin-top:2px}
+.sugg .more{margin:0;padding:8px 12px;font-size:.8rem;color:var(--ink2)}

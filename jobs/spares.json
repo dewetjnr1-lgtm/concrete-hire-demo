@@ -1,10 +1,5437 @@
 [
-  {"description":"SAMPLE – Spark plug","partNumber":"SAMPLE-001"},
-  {"description":"SAMPLE – Air filter","partNumber":"SAMPLE-002"},
-  {"description":"SAMPLE – Drive belt","partNumber":"SAMPLE-003"},
-  {"description":"SAMPLE – Starter battery 12V","partNumber":"SAMPLE-004"},
-  {"description":"SAMPLE – Stop contactor","partNumber":"SAMPLE-005"},
-  {"description":"SAMPLE – Grinding head plate","partNumber":"SAMPLE-006"},
-  {"description":"SAMPLE – Blade guard","partNumber":"SAMPLE-007"},
-  {"description":"SAMPLE – Wheel and bearing set","partNumber":"SAMPLE-008"}
+{
+"description": "XO30-1 ROX REDI LOC DIAMOND - EXTRA OUTPUT - 1 SEGMENT - 30 GRIT",
+"partNumber": "0131-0122",
+"brand": "Worx+"
+},
+{
+"description": "XO30-2 ROX REDI LOC DIAMOND - EXTRA OUTPUT - 2 SEGMENT - 30 GRIT",
+"partNumber": "0131-0221",
+"brand": "Worx+"
+},
+{
+"description": "XO50-1 ROX REDI LOC DIAMOND - EXTRA OUTPUT - 1 SEGMENT - 50 GRIT",
+"partNumber": "0131-0306",
+"brand": "Worx+"
+},
+{
+"description": "XO50-2 ROX REDI LOC DIAMOND - EXTRA OUTPUT - 2 SEGMENT - 50 GRIT",
+"partNumber": "0131-0504",
+"brand": "Worx+"
+},
+{
+"description": "XO60-2 ROX REDI LOC DIAMOND - EXTRA OUTPUT - 2 SEGMENT - 60 GRIT",
+"partNumber": "0131-0429",
+"brand": "Worx+"
+},
+{
+"description": "XOGRT-2 ROX REDI LOC DIAMOND - EXTRA OUTPUT - 2 GROUTING SEGMENTS",
+"partNumber": "0131-1907",
+"brand": "Worx+"
+},
+{
+"description": "XOGRT-3 ROX REDI LOC DIAMOND - EXTRA OUTPUT - 3 GROUTING SEGMENTS",
+"partNumber": "0131-2003",
+"brand": "Worx+"
+},
+{
+"description": "S6-1 REDI LOC DIAMOND - SOFT BOND - 1 SEGMENT - 6 GRIT",
+"partNumber": "0111-0104",
+"brand": "Worx+"
+},
+{
+"description": "S6-2 REDI LOC DIAMOND - SOFT BOND - 2 SEGMENTS - 6 GRIT",
+"partNumber": "0111-0203",
+"brand": "Worx+"
+},
+{
+"description": "S16-1 ROX REDI LOC DIAMOND - SOFT BOND - 1 SEGMENT - 16 GRIT",
+"partNumber": "0111-0326",
+"brand": "Worx+"
+},
+{
+"description": "S16-2 ROX REDI LOC DIAMOND - SOFT BOND - 2 SEGMENT - 16 GRIT",
+"partNumber": "0111-0425",
+"brand": "Worx+"
+},
+{
+"description": "S30-1 ROX REDI LOC DIAMOND - SOFT BOND - 1 SEGMENT - 30 GRIT",
+"partNumber": "0111-0524",
+"brand": "Worx+"
+},
+{
+"description": "S30-2 ROX REDI LOC DIAMOND - SOFT BOND - 2 SEGMENT - 30 GRIT",
+"partNumber": "0111-0623",
+"brand": "Worx+"
+},
+{
+"description": "S30-3 ROX REDI LOC DIAMOND - SOFT BOND - 3 SEGMENT - 30 GRIT",
+"partNumber": "0111-0722",
+"brand": "Worx+"
+},
+{
+"description": "S50-1 ROX REDI LOC DIAMOND - SOFT BOND - 1 SEGMENT - 50 GRIT",
+"partNumber": "0111-0821",
+"brand": "Worx+"
+},
+{
+"description": "S50-2 ROX REDI LOC DIAMOND - SOFT BOND - 2 SEGMENT - 50 GRIT",
+"partNumber": "0111-0920",
+"brand": "Worx+"
+},
+{
+"description": "S60-1 ROX REDI LOC DIAMOND - SOFT BOND - 1 SEGMENT - 60 GRIT",
+"partNumber": "0111-1125",
+"brand": "Worx+"
+},
+{
+"description": "S60-2 ROX REDI LOC DIAMOND - SOFT BOND - 2 SEGMENT - 60 GRIT",
+"partNumber": "0111-1224",
+"brand": "Worx+"
+},
+{
+"description": "S80-2 ROX REDI LOC DIAMOND - SOFT BOND - 2 SEGMENT - 80 GRIT",
+"partNumber": "0111-2108",
+"brand": "Worx+"
+},
+{
+"description": "S120-2 ROX REDI LOC DIAMOND - SOFT BOND - 2 SEGMENT - 120 GRIT",
+"partNumber": "0111-1521",
+"brand": "Worx+"
+},
+{
+"description": "S120-3 ROX REDI LOC DIAMOND - SOFT BOND - 3 SEGMENT - 120 GRIT",
+"partNumber": "0111-1620",
+"brand": "Worx+"
+},
+{
+"description": "S160-2 ROX REDI LOC DIAMOND - SOFT BOND - 2 SEGMENT - 160 GRIT",
+"partNumber": "0111-1729",
+"brand": "Worx+"
+},
+{
+"description": "S160-3 ROX REDI LOC DIAMOND - SOFT BOND - 3 SEGMENT - 160 GRIT",
+"partNumber": "0111-1828",
+"brand": "Worx+"
+},
+{
+"description": "SGRT-2 ROX REDI LOC DIAMOND - 2 SOFT BOND GROUTING SEGMENTS",
+"partNumber": "0111-1927",
+"brand": "Worx+"
+},
+{
+"description": "SGRT-3 ROX REDI LOC DIAMOND - 3 SOFT BOND GROUTING SEGMENTS",
+"partNumber": "0111-2023",
+"brand": "Worx+"
+},
+{
+"description": "M0-1 REDI LOC DIAMOND - MEDIUM BOND - 1 SEGMENT - SUPERCOARSE",
+"partNumber": "0112-0103",
+"brand": "Worx+"
+},
+{
+"description": "M0-2 REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENTS - SUPERCOARSE",
+"partNumber": "0112-0202",
+"brand": "Worx+"
+},
+{
+"description": "M6-1 REDI LOC DIAMOND - MEDIUM BOND - 1 SEGMENT - 6 GRIT",
+"partNumber": "0112-0301",
+"brand": "Worx+"
+},
+{
+"description": "M6-2 REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENTS - 6 GRIT",
+"partNumber": "0112-0400",
+"brand": "Worx+"
+},
+{
+"description": "M16-1 ROX REDI LOC DIAMOND - MEDIUM BOND - 1 SEGMENT - 16 GRIT",
+"partNumber": "0112-0523",
+"brand": "Worx+"
+},
+{
+"description": "M16-2 ROX REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENT - 16 GRIT",
+"partNumber": "0112-0622",
+"brand": "Worx+"
+},
+{
+"description": "M30-1 ROX REDI LOC DIAMOND - MEDIUM BOND - 1 SEGMENT - 30 GRIT",
+"partNumber": "0112-0721",
+"brand": "Worx+"
+},
+{
+"description": "M30-2 ROX REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENT - 30 GRIT",
+"partNumber": "0112-0820",
+"brand": "Worx+"
+},
+{
+"description": "M50-1 ROX REDI LOC DIAMOND - MEDIUM BOND - 1 SEGMENT - 50 GRIT",
+"partNumber": "0112-0929",
+"brand": "Worx+"
+},
+{
+"description": "M50-2 ROX REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENT - 50 GRIT",
+"partNumber": "0112-1025",
+"brand": "Worx+"
+},
+{
+"description": "M60-1 ROX REDI LOC DIAMOND - MEDIUM BOND - 1 SEGMENT - 60 GRIT",
+"partNumber": "0112-1223",
+"brand": "Worx+"
+},
+{
+"description": "M60-2 ROX REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENT - 60 GRIT",
+"partNumber": "0112-1322",
+"brand": "Worx+"
+},
+{
+"description": "M80-2 ROX REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENT - 80 GRIT",
+"partNumber": "0112-2503",
+"brand": "Worx+"
+},
+{
+"description": "M120-1 ROX REDI LOC DIAMOND - MEDIUM BOND - 1 SEGMENT - 120 GRIT",
+"partNumber": "0112-1520",
+"brand": "Worx+"
+},
+{
+"description": "M120-2 ROX REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENT - 120 GRIT",
+"partNumber": "0112-1629",
+"brand": "Worx+"
+},
+{
+"description": "M120-3 ROX REDI LOC DIAMOND - MEDIUM BOND - 3 SEGMENT - 120 GRIT",
+"partNumber": "0112-1827",
+"brand": "Worx+"
+},
+{
+"description": "M160-2 ROX REDI LOC DIAMOND - MEDIUM BOND - 2 SEGMENT - 160 GRIT",
+"partNumber": "0112-2022",
+"brand": "Worx+"
+},
+{
+"description": "M160-3 ROX REDI LOC DIAMOND - MEDIUM BOND - 3 SEGMENT - 160 GRIT",
+"partNumber": "0112-2220",
+"brand": "Worx+"
+},
+{
+"description": "MGRT-2 ROX REDI LOC DIAMOND - 2 MEDIUM BOND GROUTING SEGMENTS",
+"partNumber": "0112-2329",
+"brand": "Worx+"
+},
+{
+"description": "MGRT-3 ROX REDI LOC DIAMOND - 3 MEDIUM BOND GROUTING SEGMENTS",
+"partNumber": "0112-2428",
+"brand": "Worx+"
+},
+{
+"description": "H0-1 REDI LOC DIAMOND - HARD BOND - 1 SEGMENT - SUPERCOARSE",
+"partNumber": "0114-0101",
+"brand": "Worx+"
+},
+{
+"description": "HO-2 REDI LOC DIAMOND - HARD BOND - 2 SEGMENTS - SUPERCOARSE",
+"partNumber": "0114-0200",
+"brand": "Worx+"
+},
+{
+"description": "H6-1 REDI LOC DIAMOND - HARD BOND - 1 SEGMENT - 6 GRIT",
+"partNumber": "0114-0309",
+"brand": "Worx+"
+},
+{
+"description": "H6-2 REDI LOC DIAMOND - HARD BOND - 2 SEGMENTS - 6 GRIT",
+"partNumber": "0114-0408",
+"brand": "Worx+"
+},
+{
+"description": "H16-1 ROX REDI LOC DIAMOND - HARD BOND - 1 SEGMENT - 16 GRIT",
+"partNumber": "0114-0521",
+"brand": "Worx+"
+},
+{
+"description": "H16-2 ROX REDI LOC DIAMOND - HARD BOND - 2 SEGMENT - 16 GRIT",
+"partNumber": "0114-0620",
+"brand": "Worx+"
+},
+{
+"description": "H30-1 ROX REDI LOC DIAMOND - HARD BOND - 1 SEGMENT - 30 GRIT",
+"partNumber": "0114-0729",
+"brand": "Worx+"
+},
+{
+"description": "H30-2 ROX REDI LOC DIAMOND - HARD BOND - 2 SEGMENT - 30 GRIT",
+"partNumber": "0114-0828",
+"brand": "Worx+"
+},
+{
+"description": "H30-3 ROX REDI LOC DIAMOND - HARD BOND - 3 SEGMENT - 30 GRIT",
+"partNumber": "0114-0927",
+"brand": "Worx+"
+},
+{
+"description": "H50-1 ROX REDI LOC DIAMOND - HARD BOND - 1 SEGMENT - 50 GRIT",
+"partNumber": "0114-1023",
+"brand": "Worx+"
+},
+{
+"description": "H50-2 ROX REDI LOC DIAMOND - HARD BOND - 2 SEGMENT - 50 GRIT",
+"partNumber": "0114-1122",
+"brand": "Worx+"
+},
+{
+"description": "H60-2 ROX REDI LOC DIAMOND - HARD BOND - 2 SEGMENT - 60 GRIT",
+"partNumber": "0114-1221",
+"brand": "Worx+"
+},
+{
+"description": "HGRT-3 ROX REDI LOC DIAMOND - 3 HARD BOND GROUTING SEGMENTS",
+"partNumber": "0114-1320",
+"brand": "Worx+"
+},
+{
+"description": "VH0-1 REDI LOC DIAMOND - VERY HARD BOND - 1 SEGMENT - SUPERCOARSE",
+"partNumber": "0115-0100",
+"brand": "Worx+"
+},
+{
+"description": "VH0-2 REDI LOC DIAMOND - VERY HARD BOND - 2 SEGMENTS - SUPERCOARSE",
+"partNumber": "0115-0209",
+"brand": "Worx+"
+},
+{
+"description": "VH6-1 REDI LOC DIAMOND - VERY HARD BOND - 1 SEGMENT - 6 GRIT",
+"partNumber": "0115-0308",
+"brand": "Worx+"
+},
+{
+"description": "VH6-2 REDI LOC DIAMOND - VERY HARD BOND - 2 SEGMENTS - 6 GRIT",
+"partNumber": "0115-0407",
+"brand": "Worx+"
+},
+{
+"description": "VH6-3 REDI LOC DIAMOND - VERY HARD BOND - 3 SEGMENTS - 6 GRIT",
+"partNumber": "0115-0506",
+"brand": "Worx+"
+},
+{
+"description": "VH16-1 ROX REDI LOC DIAMOND - VERY HARD BOND - 1 SEGMENT - 16 GRIT",
+"partNumber": "0115-0629",
+"brand": "Worx+"
+},
+{
+"description": "VH16-2 ROX REDI LOC DIAMOND - VERY HARD BOND - 2 SEGMENT - 16 GRIT",
+"partNumber": "0115-0728",
+"brand": "Worx+"
+},
+{
+"description": "VH30-1 ROX REDI LOC DIAMOND - VERY HARD BOND - 1 SEGMENT - 30 GRIT",
+"partNumber": "0115-0827",
+"brand": "Worx+"
+},
+{
+"description": "VH30-2 ROX REDI LOC DIAMOND - VERY HARD BOND - 2 SEGMENT - 30 GRIT",
+"partNumber": "0115-0926",
+"brand": "Worx+"
+},
+{
+"description": "VH30-3 ROX REDI LOC DIAMOND - VERY HARD BOND - 3 SEGMENT - 30 GRIT",
+"partNumber": "0115-1022",
+"brand": "Worx+"
+},
+{
+"description": "VH50-1 ROX REDI LOC DIAMOND - VERY HARD BOND - 1 SEGMENT - 50 GRIT",
+"partNumber": "0115-1121",
+"brand": "Worx+"
+},
+{
+"description": "VH50-2 ROX REDI LOC DIAMOND - VERY HARD BOND - 2 SEGMENT - 50 GRIT",
+"partNumber": "0115-1220",
+"brand": "Worx+"
+},
+{
+"description": "SH30-1 ROX REDI LOC DIAMOND - SUPER HARD BOND - 1 SEGMENT - 30 GRIT",
+"partNumber": "0116-0123",
+"brand": "Worx+"
+},
+{
+"description": "SH30-2 ROX REDI LOC DIAMOND - SUPER HARD BOND - 2 SEGMENT - 30 GRIT",
+"partNumber": "0116-0222",
+"brand": "Worx+"
+},
+{
+"description": "SH30-3 ROX REDI LOC DIAMOND - SUPER HARD BOND - 3 SEGMENT - 30 GRIT",
+"partNumber": "0116-0321",
+"brand": "Worx+"
+},
+{
+"description": "S16Z - 1 ZIG ZAG DIAMOND - S BOND - 16 GRIT",
+"partNumber": "0121-0101",
+"brand": "Worx+"
+},
+{
+"description": "S16ZZ - 2 ZIG ZAG DIAMONDS - S BOND - 16 GRIT",
+"partNumber": "0121-0200",
+"brand": "Worx+"
+},
+{
+"description": "S30Z - 1 ZIG ZAG DIAMOND - S BOND - 30 GRIT",
+"partNumber": "0121-0309",
+"brand": "Worx+"
+},
+{
+"description": "S30ZZ - 2 ZIG ZAG DIAMONDS - S BOND - 30 GRIT",
+"partNumber": "0121-0408",
+"brand": "Worx+"
+},
+{
+"description": "M16Z - 1 ZIG ZAG DIAMOND - M BOND - 16 GRIT",
+"partNumber": "0122-0100",
+"brand": "Worx+"
+},
+{
+"description": "M16ZZ - 2 ZIG ZAG DIAMONDS - M BOND - 16 GRIT",
+"partNumber": "0122-0209",
+"brand": "Worx+"
+},
+{
+"description": "M30Z - 1 ZIG ZAG DIAMOND - M BOND - 30 GRIT",
+"partNumber": "0122-0308",
+"brand": "Worx+"
+},
+{
+"description": "M30ZZ - 2 ZIG ZAG DIAMONDS - M BOND - 30 GRIT",
+"partNumber": "0122-0407",
+"brand": "Worx+"
+},
+{
+"description": "H16Z - 1 ZIG ZAG DIAMOND - H BOND - 16 GRIT",
+"partNumber": "0123-0109",
+"brand": "Worx+"
+},
+{
+"description": "H16ZZ - 2 ZIG ZAG DIAMONDS - H BOND - 16 GRIT",
+"partNumber": "0123-0208",
+"brand": "Worx+"
+},
+{
+"description": "H30Z - 1 ZIG ZAG DIAMOND - H BOND - 30 GRIT",
+"partNumber": "0123-0307",
+"brand": "Worx+"
+},
+{
+"description": "H30ZZ- 2 ZIG ZAG DIAMONDS - H BOND - 30 GRIT",
+"partNumber": "0123-0406",
+"brand": "Worx+"
+},
+{
+"description": "VH16Z - 1 ZIG ZAG DIAMOND - VH BOND - 16 GRIT",
+"partNumber": "0124-0306",
+"brand": "Worx+"
+},
+{
+"description": "VH16ZZ - 2 ZIG ZAG DIAMONDS - VH BOND - 16 GRIT",
+"partNumber": "0124-0405",
+"brand": "Worx+"
+},
+{
+"description": "VH30Z - 1 ZIG ZAG DIAMOND - VH BOND - 30 GRIT",
+"partNumber": "0124-0504",
+"brand": "Worx+"
+},
+{
+"description": "VH30ZZ - 2 ZIG ZAG DIAMONDS - VH BOND - 30 GRIT",
+"partNumber": "0124-0603",
+"brand": "Worx+"
+},
+{
+"description": "SH30ZZ - 2 ZIG ZAG DIAMONDS - SH BOND - 30 GRIT",
+"partNumber": "0125-0602",
+"brand": "Worx+"
+},
+{
+"description": "SHREDDA PCD CW REDI LOCK DIAMOND - 5 x 1/4PCD SCRAPER PLUS CRUSHED PCD WEAR CONTROL SEGMENT (CLOCKWISE ROTATION)",
+"partNumber": "0155-0115",
+"brand": "Worx+"
+},
+{
+"description": "SHREDDA PCD CCW REDI LOCK DIAMOND - 5 x 1/4PCD SCRAPER PLUS CRUSHED PCD WEAR CONTROL SEGMENT (COUNTER CLOCKWISE ROTATION)",
+"partNumber": "0155-0214",
+"brand": "Worx+"
+},
+{
+"description": "S16F-U - UTILITY - S BOND - 1 DIAMOND PARA SEG - 16 GRIT",
+"partNumber": "0141-0105",
+"brand": "Worx+"
+},
+{
+"description": "S16G-U - UTILITY - S BOND - 2 DIAMOND PARA SEG - 16 GRIT",
+"partNumber": "0141-0204",
+"brand": "Worx+"
+},
+{
+"description": "S30F-U - UTILITY - S BOND - 1 DIAMOND PARA SEG - 30 GRIT",
+"partNumber": "0141-0303",
+"brand": "Worx+"
+},
+{
+"description": "S30G-U - UTILITY - S BOND - 2 DIAMOND PARA SEG - 30 GRIT",
+"partNumber": "0141-0402",
+"brand": "Worx+"
+},
+{
+"description": "S50J-U - UTILITY - S BOND - 1 DIAMOND ANG SEG - 50 GRIT",
+"partNumber": "0141-0501",
+"brand": "Worx+"
+},
+{
+"description": "S50K-U - UTILITY - S BOND - 2 DIAMOND ANG SEG - 50 GRIT",
+"partNumber": "0141-0600",
+"brand": "Worx+"
+},
+{
+"description": "S60J-U - UTILITY - S BOND - 1 DIAMOND ANG SEG - 60 GRIT",
+"partNumber": "0141-0709",
+"brand": "Worx+"
+},
+{
+"description": "S60K-U - UTILITY - S BOND - 2 DIAMOND ANG SEG - 60 GRIT",
+"partNumber": "0141-0808",
+"brand": "Worx+"
+},
+{
+"description": "M16F-U - UTILITY - M BOND - 1 DIAMOND PARA SEG - 16 GRIT",
+"partNumber": "0142-0104",
+"brand": "Worx+"
+},
+{
+"description": "M16G-U - UTILITY - M BOND - 2 DIAMOND PARA SEG - 16 GRIT",
+"partNumber": "0142-0203",
+"brand": "Worx+"
+},
+{
+"description": "M30F-U - UTILITY - M BOND - 1 DIAMOND PARA SEG - 30 GRIT",
+"partNumber": "0142-0302",
+"brand": "Worx+"
+},
+{
+"description": "M30G-U - UTILITY - M BOND - 2 DIAMOND PARA SEG - 30 GRIT",
+"partNumber": "0142-0401",
+"brand": "Worx+"
+},
+{
+"description": "M50J-U - UTILITY - M BOND - 1 DIAMOND ANG SEG - 50 GRIT",
+"partNumber": "0142-0500",
+"brand": "Worx+"
+},
+{
+"description": "M50K-U - UTILITY - M BOND - 2 DIAMOND ANG SEG - 50 GRIT",
+"partNumber": "0142-0609",
+"brand": "Worx+"
+},
+{
+"description": "M60J-U - UTILITY - M BOND - 1 DIAMOND ANG SEG - 60 GRIT",
+"partNumber": "0142-0708",
+"brand": "Worx+"
+},
+{
+"description": "M60K-U - UTILITY - M BOND - 2 DIAMOND ANG SEG - 60 GRIT",
+"partNumber": "0142-0807",
+"brand": "Worx+"
+},
+{
+"description": "H16F-U - UTILITY - H BOND - 1 DIAMOND PARA SEG - 16 GRIT",
+"partNumber": "0143-0103",
+"brand": "Worx+"
+},
+{
+"description": "H16G-U - UTILITY - H BOND - 2 DIAMOND PARA SEG - 16 GRIT",
+"partNumber": "0143-0202",
+"brand": "Worx+"
+},
+{
+"description": "H30F-U - UTILITY - H BOND - 1 DIAMOND PARA SEG - 30 GRIT",
+"partNumber": "0143-0301",
+"brand": "Worx+"
+},
+{
+"description": "H30G-U - UTILITY - H BOND - 2 DIAMOND PARA SEG - 30 GRIT",
+"partNumber": "0143-0400",
+"brand": "Worx+"
+},
+{
+"description": "H50J-U - UTILITY - H BOND - 1 DIAMOND ANG SEG - 50 GRIT",
+"partNumber": "0143-0509",
+"brand": "Worx+"
+},
+{
+"description": "H50K-U - UTILITY - H BOND - 2 DIAMOND ANG SEG - 50 GRIT",
+"partNumber": "0143-0608",
+"brand": "Worx+"
+},
+{
+"description": "H60J-U - UTILITY - H BOND - 1 DIAMOND ANG SEG - 60 GRIT",
+"partNumber": "0143-0707",
+"brand": "Worx+"
+},
+{
+"description": "H60K-U - UTILITY - H BOND - 2 DIAMOND ANG SEG - 60 GRIT",
+"partNumber": "0143-0806",
+"brand": "Worx+"
+},
+{
+"description": "TRIX3, 75mm with M10 thread in 30 GRIT",
+"partNumber": "0211-0202",
+"brand": "Worx+"
+},
+{
+"description": "TRIX3, 75mm with M10 thread in 100 GRIT",
+"partNumber": "0211-0301",
+"brand": "Worx+"
+},
+{
+"description": "TRIX5, 125mm with M14 thread in 30 GRIT",
+"partNumber": "0211-0103",
+"brand": "Worx+"
+},
+{
+"description": "TRIX5, 125mm with M14 thread in 100 GRIT",
+"partNumber": "0211-0509",
+"brand": "Worx+"
+},
+{
+"description": "TRIX7, 180mm with M14 thread in 30 GRIT",
+"partNumber": "0211-0608",
+"brand": "Worx+"
+},
+{
+"description": "TRIX7, 180mm with M14 thread in 100 GRIT",
+"partNumber": "0211-0707",
+"brand": "Worx+"
+},
+{
+"description": "5mm RADIUS BEVEL PROFILE WHEEL, M14 thread, Coarse (E5 50#)",
+"partNumber": "0212-0706",
+"brand": "Worx+"
+},
+{
+"description": "5mm RADIUS BEVEL PROFILE WHEEL, M14 thread, Fine (E5 100#)",
+"partNumber": "0212-0805",
+"brand": "Worx+"
+},
+{
+"description": "7mm RADIUS BEVEL PROFILE WHEEL, M14 thread, Coarse (E7 50#)",
+"partNumber": "0212-0904",
+"brand": "Worx+"
+},
+{
+"description": "7mm RADIUS BEVEL PROFILE WHEEL, M14 thread, Fine (E7 100#)",
+"partNumber": "0212-1000",
+"brand": "Worx+"
+},
+{
+"description": "10mm RADIUS BEVEL PROFILE WHEEL, M14 thread, Coarse (E10 50#)",
+"partNumber": "0212-1109",
+"brand": "Worx+"
+},
+{
+"description": "10mm RADIUS BEVEL PROFILE WHEEL, M14 thread, Fine (E10 100#)",
+"partNumber": "0212-1208",
+"brand": "Worx+"
+},
+{
+"description": "20mm RADIUS BEVEL PROFILE WHEEL, M14 thread, Coarse (E20 50#)",
+"partNumber": "0212-1307",
+"brand": "Worx+"
+},
+{
+"description": "20mm RADIUS BEVEL PROFILE WHEEL, M14 thread, Fine (E20 100#)",
+"partNumber": "0212-1406",
+"brand": "Worx+"
+},
+{
+"description": "5mm RADIUS HALF BULL NOSE PROFILE WHEEL, M14 thread, Coarse (B5 50#)",
+"partNumber": "0212-1505",
+"brand": "Worx+"
+},
+{
+"description": "5mm RADIUS HALF BULL NOSE PROFILE WHEEL, M14 thread, Fine (B5 100#)",
+"partNumber": "0212-1604",
+"brand": "Worx+"
+},
+{
+"description": "7mm RADIUS HALF BULL NOSE PROFILE WHEEL, M14 thread, Coarse (B7 50#)",
+"partNumber": "0212-1703",
+"brand": "Worx+"
+},
+{
+"description": "7mm RADIUS HALF BULL NOSE PROFILE WHEEL, M14 thread, Fine (B7 100#)",
+"partNumber": "0212-1802",
+"brand": "Worx+"
+},
+{
+"description": "10mm RADIUS HALF BULL NOSE PROFILE WHEEL, M14 thread, Coarse (B10 50#)",
+"partNumber": "0212-2106",
+"brand": "Worx+"
+},
+{
+"description": "10mm RADIUS HALF BULL NOSE PROFILE WHEEL, M14 thread, Fine (B10 100#)",
+"partNumber": "0212-2205",
+"brand": "Worx+"
+},
+{
+"description": "20mm RADIUS HALF BULL NOSE PROFILE WHEEL, M14 thread, Coarse (B20 50#)",
+"partNumber": "0212-2304",
+"brand": "Worx+"
+},
+{
+"description": "20mm RADIUS HALF BULL NOSE PROFILE WHEEL, M14 thread, Fine (B20 100#)",
+"partNumber": "0212-2403",
+"brand": "Worx+"
+},
+{
+"description": "TURBO RIM CUP WHEEL - 80mm with M10 thread - SOFT - 30 grit",
+"partNumber": "0303-0103",
+"brand": "Worx+"
+},
+{
+"description": "TURBO RIM CUP WHEEL - 80mm with M10 thread - SOFT - 100 grit",
+"partNumber": "0303-0202",
+"brand": "Worx+"
+},
+{
+"description": "FORCE PCD CUP WHEEL - 125mm - DOUBLE ROW 12 PIECES MINI PCD",
+"partNumber": "0311-0102",
+"brand": "Worx+"
+},
+{
+"description": "FORCE PCD CUP WHEEL - 125mm - SINGLE ROW 6 PIECES 1/4 PCD",
+"partNumber": "0311-0201",
+"brand": "Worx+"
+},
+{
+"description": "FORCE ZZ CUP WHEEL - 125mm - S BOND - 6 SEGS - 16 GRIT",
+"partNumber": "0312-0101",
+"brand": "Worx+"
+},
+{
+"description": "FORCE ZZ CUP WHEEL - 125mm - S BOND - 6 SEGS - 30 GRIT",
+"partNumber": "0312-0200",
+"brand": "Worx+"
+},
+{
+"description": "Force5 S30 - 5\"/125mm FORCE DIAMOND CUP WHEEL in 30 GRIT, SOFT BOND",
+"partNumber": "0314-0116",
+"brand": "Worx+"
+},
+{
+"description": "Force5 M30 - 5\"/125mm FORCE DIAMOND CUP WHEEL in 30 GRIT, MEDIUM BOND",
+"partNumber": "0314-0215",
+"brand": "Worx+"
+},
+{
+"description": "Refine5 S60 - 5\"/125mm REFINE DIAMOND CUP WHEEL in 60 GRIT, SOFT BOND",
+"partNumber": "0316-0312",
+"brand": "Worx+"
+},
+{
+"description": "Refine5 S100 - 5\"/125mm REFINE DIAMOND CUP WHEEL in 100 GRIT, SOFT BOND",
+"partNumber": "0316-0411",
+"brand": "Worx+"
+},
+{
+"description": "Refine5 S120 - 5\"/125mm REFINE DIAMOND CUP WHEEL in 120 GRIT, SOFT BOND",
+"partNumber": "0316-0602",
+"brand": "Worx+"
+},
+{
+"description": "REFINE DIAMOND CUP WHEEL - 125mm - SOFT BOND - 16 SEGMENT - 160/180 GRIT",
+"partNumber": "0316-0503",
+"brand": "Worx+"
+},
+{
+"description": "Apex5 S30 - 5\"/125mm APEX DIAMOND CUP WHEEL in 30 GRIT, SOFT BOND",
+"partNumber": "0317-0205",
+"brand": "Worx+"
+},
+{
+"description": "FORCE PCD CUP WHEEL - 150mm - DOUBLE ROW 16 PIECES MINI PCD",
+"partNumber": "0321-0109",
+"brand": "Worx+"
+},
+{
+"description": "FORCE PCD CUP WHEEL - 150mm - SINGLE ROW 6 PIECES 1/4 PCD",
+"partNumber": "0321-0208",
+"brand": "Worx+"
+},
+{
+"description": "FORCE ZZ CUP WHEEL - 150mm - S BOND - 7 SEGS - 16 GRIT",
+"partNumber": "0322-0108",
+"brand": "Worx+"
+},
+{
+"description": "FORCE ZZ CUP WHEEL - 150mm - S BOND - 7 SEGS - 30 GRIT",
+"partNumber": "0322-0207",
+"brand": "Worx+"
+},
+{
+"description": "FORCE DIAMOND CUP WHEEL - 150mm - SOFT BOND - 10 SEGMENT - 30/40 GRIT",
+"partNumber": "0324-0106",
+"brand": "Worx+"
+},
+{
+"description": "FORCE DIAMOND CUP WHEEL - 150mm - MEDIUM BOND - 10 SEGMENT - 30/40 GRIT",
+"partNumber": "0324-0205",
+"brand": "Worx+"
+},
+{
+"description": "TURBO RIM CUP WHEEL - 150mm - SOFT - 30/40",
+"partNumber": "0325-0105",
+"brand": "Worx+"
+},
+{
+"description": "TURBO RIM CUP WHEEL - 150mm - SOFT - 60/80",
+"partNumber": "0325-0204",
+"brand": "Worx+"
+},
+{
+"description": "TURBO RIM CUP WHEEL - 150mm - SOFT - 100/120",
+"partNumber": "0325-0303",
+"brand": "Worx+"
+},
+{
+"description": "REFINE DIAMOND CUP WHEEL - 150mm - SOFT BOND - 18 SEGMENT - 30/40 GRIT",
+"partNumber": "0326-0104",
+"brand": "Worx+"
+},
+{
+"description": "REFINE DIAMOND CUP WHEEL - 150mm - MEDIUM BOND - 18 SEGMENT - 30/40 GRIT",
+"partNumber": "0326-0203",
+"brand": "Worx+"
+},
+{
+"description": "REFINE DIAMOND CUP WHEEL - 150mm - SOFT BOND - 18 SEGMENT - 60/80 GRIT",
+"partNumber": "0326-0302",
+"brand": "Worx+"
+},
+{
+"description": "REFINE DIAMOND CUP WHEEL - 150mm - SOFT BOND - 18 SEGMENT - 100/120 GRIT",
+"partNumber": "0326-0401",
+"brand": "Worx+"
+},
+{
+"description": "FORCE PCD CUP WHEEL - 180mm - DOUBLE ROW 18 PIECES MINI PCD",
+"partNumber": "0331-0106",
+"brand": "Worx+"
+},
+{
+"description": "FORCE PCD CUP WHEEL - 180mm - SINGLE ROW 8 PIECES 1/4 PCD",
+"partNumber": "0331-0205",
+"brand": "Worx+"
+},
+{
+"description": "FORCE ZZ CUP WHEEL - 180mm - S BOND - 8 SEGS - 16 GRIT",
+"partNumber": "0332-0105",
+"brand": "Worx+"
+},
+{
+"description": "FORCE ZZ CUP WHEEL - 180mm - S BOND - 8 SEGS - 30 GRIT",
+"partNumber": "0332-0204",
+"brand": "Worx+"
+},
+{
+"description": "FORCE DIAMOND CUP WHEEL - 180mm - SOFT BOND - 6 ARROW SHAPED SEGMENTS - 30/40 GRIT",
+"partNumber": "0333-0104",
+"brand": "Worx+"
+},
+{
+"description": "Force7 S30 - 7\"/180mm FORCE DIAMOND CUP WHEEL in 30 GRIT, SOFT BOND",
+"partNumber": "0334-0110",
+"brand": "Worx+"
+},
+{
+"description": "Force7 M30 - 7\"/180mm FORCE DIAMOND CUP WHEEL in 30 GRIT, MEDIUM BOND",
+"partNumber": "0334-0219",
+"brand": "Worx+"
+},
+{
+"description": "TURBO RIM CUP WHEEL - 180mm - SOFT - 30/40",
+"partNumber": "0335-0102",
+"brand": "Worx+"
+},
+{
+"description": "TURBO RIM CUP WHEEL - 180mm - SOFT - 100/120",
+"partNumber": "0335-0300",
+"brand": "Worx+"
+},
+{
+"description": "REFINE DIAMOND CUP WHEEL - 180mm - SOFT BOND - 18 SEGMENT - 30/40 GRIT",
+"partNumber": "0336-0101",
+"brand": "Worx+"
+},
+{
+"description": "REFINE DIAMOND CUP WHEEL - 180mm - MEDIUM BOND - 18 SEGMENT - 30/40 GRIT",
+"partNumber": "0336-0200",
+"brand": "Worx+"
+},
+{
+"description": "Refine7 S60 - 7\"/180mm REFINE DIAMOND CUP WHEEL in 60 GRIT, SOFT BOND",
+"partNumber": "0336-0316",
+"brand": "Worx+"
+},
+{
+"description": "Refine7 S100 - 7\"/180mm REFINE DIAMOND CUP WHEEL in 100 GRIT, SOFT BOND",
+"partNumber": "0336-0415",
+"brand": "Worx+"
+},
+{
+"description": "Refine7 S120 - 7\"/180mm REFINE DIAMOND CUP WHEEL in 120 GRIT, SOFT BOND",
+"partNumber": "0336-0507",
+"brand": "Worx+"
+},
+{
+"description": "Apex7 S30 - 7\"/180mm APEX DIAMOND CUP WHEEL in 30 GRIT SOFT BOND",
+"partNumber": "0337-0209",
+"brand": "Worx+"
+},
+{
+"description": "SPECIALTY PRO 50 GRIT",
+"partNumber": "0405-0100",
+"brand": "Worx+"
+},
+{
+"description": "SPECIALTY PRO 100 GRIT",
+"partNumber": "0405-0209",
+"brand": "Worx+"
+},
+{
+"description": "SPECIALTY PRO 200 GRIT",
+"partNumber": "0405-0308",
+"brand": "Worx+"
+},
+{
+"description": "TRIANGULAR CORNER POLISHING PAD - METAL - 80 x 80 x 80mm - 30 GRIT",
+"partNumber": "0421-0108",
+"brand": "Worx+"
+},
+{
+"description": "TRIANGULAR CORNER POLISHING PAD - METAL - 80 x 80 x 80mm - 60 GRIT, Green",
+"partNumber": "0421-0207",
+"brand": "Worx+"
+},
+{
+"description": "TRIANGULAR CORNER POLISHING PAD - METAL - 80 x 80 x 80mm - 120 GRIT",
+"partNumber": "0421-0306",
+"brand": "Worx+"
+},
+{
+"description": "TRIANGULAR CORNER POLISHING PAD - METAL - 80 x 80 x 80mm - 200 GRIT, Red",
+"partNumber": "0421-0405",
+"brand": "Worx+"
+},
+{
+"description": "TRIANGULAR CORNER POLISHING PAD - METAL - 80 x 80 x 80mm - 400 GRIT",
+"partNumber": "0421-0504",
+"brand": "Worx+"
+},
+{
+"description": "TRIANGULAR CORNER POLISHING PAD - 80 x 80 x 80mm - 800 GRIT",
+"partNumber": "0421-0603",
+"brand": "Worx+"
+},
+{
+"description": "TRIANGULAR CORNER POLISHING PAD - 80 x 80 x 80mm - 1500 GRIT, Blue",
+"partNumber": "0421-0702",
+"brand": "Worx+"
+},
+{
+"description": "TRIANGULAR CORNER POLISHING PAD - 80 x 80 x 80mm - 3000 GRIT, Grey",
+"partNumber": "0421-0801",
+"brand": "Worx+"
+},
+{
+"description": "S3-050: SPECIALTY DRY POLISHING PAD - 50 GRIT - 10mm THICK",
+"partNumber": "0430-0106",
+"brand": "Worx+"
+},
+{
+"description": "SPECIALTY DRY POLISH PAD - 100 GRIT - 10mm THICK",
+"partNumber": "0430-0205",
+"brand": "Worx+"
+},
+{
+"description": "SPECIALTY DRY POLISHING PAD - 75mm - 200 GRIT - 10mm THICK",
+"partNumber": "0430-0304",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT3 DRY POLISHING PAD - 75mm - 50 GRIT",
+"partNumber": "0431-0105",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT3 DRY POLISHING PAD - 75mm - 100 GRIT",
+"partNumber": "0431-0204",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT3 DRY POLISHING PAD - 75mm - 200 GRIT",
+"partNumber": "0431-0303",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT3 DRY POLISHING PAD - 75mm - 400 GRIT",
+"partNumber": "0431-0402",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT3 DRY POLISHING PAD - 75mm - 800 GRIT",
+"partNumber": "0431-0501",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT3 DRY POLISHING PAD - 75mm - 3000 GRIT",
+"partNumber": "0431-0709",
+"brand": "Worx+"
+},
+{
+"description": "UNIVERSAL DRY POLISHING PAD - 75mm - 100 GRIT - 6mm THICK",
+"partNumber": "0432-0104",
+"brand": "Worx+"
+},
+{
+"description": "UNIVERSAL DRY POLISHING PAD - 75mm - 200 GRIT - 6mm THICK",
+"partNumber": "0432-0203",
+"brand": "Worx+"
+},
+{
+"description": "UNIVERSAL DRY POLISHING PAD - 75mm - 400 GRIT - 6mm THICK",
+"partNumber": "0432-0302",
+"brand": "Worx+"
+},
+{
+"description": "UNIVERSAL DRY POLISHING PAD - 75mm - 800 GRIT- 6mm THICK",
+"partNumber": "0432-0401",
+"brand": "Worx+"
+},
+{
+"description": "FLEX3 DRY POLISHING PAD - 75mm - 100 GRIT - 3mm THICK",
+"partNumber": "0433-0202",
+"brand": "Worx+"
+},
+{
+"description": "FLEX3 DRY POLISHING PAD - 75mm - 200 GRIT - 3mm THICK",
+"partNumber": "0433-0301",
+"brand": "Worx+"
+},
+{
+"description": "FLEX3 DRY POLISHING PAD - 75mm - 400 GRIT - 3mm THICK",
+"partNumber": "0433-0400",
+"brand": "Worx+"
+},
+{
+"description": "FLEX3 DRY POLISHING PAD - 75mm - 800 GRIT- 3mm THICK",
+"partNumber": "0433-0509",
+"brand": "Worx+"
+},
+{
+"description": "FLEX3 DRY POLISHING PAD - 75mm - 1500 GRIT - 3mm THICK",
+"partNumber": "0433-0608",
+"brand": "Worx+"
+},
+{
+"description": "FLEX3 DRY POLISHING PAD - 75mm - 3000 GRIT - 3mm THICK",
+"partNumber": "0433-0707",
+"brand": "Worx+"
+},
+{
+"description": "FLEX3 DRY POLISHING PAD - 75mm - 5000 GRIT - 3mm THICK",
+"partNumber": "0433-0806",
+"brand": "Worx+"
+},
+{
+"description": "FLEX3 DRY POLISHING PAD - 75mm - 10000 GRIT - 3mm THICK",
+"partNumber": "0433-0905",
+"brand": "Worx+"
+},
+{
+"description": "AQUA ONE POLISHING PADS - 75mm - 50 GRIT",
+"partNumber": "0434-0003",
+"brand": "Worx+"
+},
+{
+"description": "AQUA ZERO POLISHING PADS - 75mm - 100 GRIT",
+"partNumber": "0434-0102",
+"brand": "Worx+"
+},
+{
+"description": "AQUA ZERO POLISHING PADS - 75mm - 200 GRIT",
+"partNumber": "0434-0201",
+"brand": "Worx+"
+},
+{
+"description": "AQUA ZERO POLISHING PADS - 75mm - 400 GRIT",
+"partNumber": "0434-0300",
+"brand": "Worx+"
+},
+{
+"description": "COMPOSITE POLISHING PAD CERAMIC - 75mm - 30 GRIT",
+"partNumber": "0435-0101",
+"brand": "Worx+"
+},
+{
+"description": "COMPOSITE POLISHING PAD CERAMIC - 75mm - 50 GRIT",
+"partNumber": "0435-0200",
+"brand": "Worx+"
+},
+{
+"description": "COMPOSITE POLISHING PAD CERAMIC - 75mm - 100 GRIT",
+"partNumber": "0435-0309",
+"brand": "Worx+"
+},
+{
+"description": "COMPOSITE POLISHING PAD CERAMIC - 75mm - 200 GRIT",
+"partNumber": "0435-0408",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 75mm - 50 GRIT",
+"partNumber": "0436-0100",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 75mm - 100 GRIT",
+"partNumber": "0436-0209",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 75mm - 200 GRIT",
+"partNumber": "0436-0308",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 75mm - 400 GRIT",
+"partNumber": "0436-0407",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 125mm - 30 GRIT",
+"partNumber": "0441-0003",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 125mm - 50 GRIT",
+"partNumber": "0441-0102",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 125mm - 100 GRIT",
+"partNumber": "0441-0201",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 125mm - 200 GRIT",
+"partNumber": "0441-0300",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 125mm - 400 GRIT",
+"partNumber": "0441-0409",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 125mm - 800 GRIT",
+"partNumber": "0441-0508",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 125mm - 1500 GRIT",
+"partNumber": "0441-0607",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 125mm - 3000 GRIT",
+"partNumber": "0441-0706",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 30 GRIT - 3mm THICK",
+"partNumber": "0442-0101",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 50 GRIT - 3mm THICK",
+"partNumber": "0442-0200",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 100 GRIT - 3mm THICK",
+"partNumber": "0442-0309",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 200 GRIT - 3mm THICK",
+"partNumber": "0442-0408",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 400 GRIT - 3mm THICK",
+"partNumber": "0442-0507",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 800 GRIT- 3mm THICK",
+"partNumber": "0442-0606",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 1500 GRIT - 3mm THICK",
+"partNumber": "0442-0705",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 3000 GRIT - 3mm THICK",
+"partNumber": "0442-0804",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 5000 GRIT - 3mm THICK",
+"partNumber": "0442-0903",
+"brand": "Worx+"
+},
+{
+"description": "HALO5 DRY POLISHING PAD - 125mm - 10000 GRIT - 3mm THICK",
+"partNumber": "0442-1009",
+"brand": "Worx+"
+},
+{
+"description": "FLEX5 DRY POLISHING PAD - 125mm - 30 GRIT - 3mm THICK",
+"partNumber": "0443-0100",
+"brand": "Worx+"
+},
+{
+"description": "FLEX5 DRY POLISHING PAD - 125mm - 50 GRIT - 3mm THICK",
+"partNumber": "0443-0209",
+"brand": "Worx+"
+},
+{
+"description": "FLEX5 DRY POLISHING PAD - 125mm - 100 GRIT - 3mm THICK",
+"partNumber": "0443-0308",
+"brand": "Worx+"
+},
+{
+"description": "FLEX5 DRY POLISHING PAD - 125mm - 200 GRIT - 3mm THICK",
+"partNumber": "0443-0407",
+"brand": "Worx+"
+},
+{
+"description": "FLEX5 DRY POLISHING PAD - 125mm - 400 GRIT - 3mm THICK",
+"partNumber": "0443-0506",
+"brand": "Worx+"
+},
+{
+"description": "FLEX5 DRY POLISHING PAD - 125mm - 800 GRIT- 3mm THICK",
+"partNumber": "0443-0605",
+"brand": "Worx+"
+},
+{
+"description": "FLEX5 DRY POLISHING PAD - 125mm - 1500 GRIT - 3mm THICK",
+"partNumber": "0443-0704",
+"brand": "Worx+"
+},
+{
+"description": "FLEX5 DRY POLISHING PAD - 125mm - 3000 GRIT - 3mm THICK",
+"partNumber": "0443-0803",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT5 DRY POLISHING PAD - 125mm - 50 GRIT",
+"partNumber": "0444-0208",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT5 DRY POLISHING PAD - 125mm - 100 GRIT",
+"partNumber": "0444-0307",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT5 DRY POLISHING PAD - 125mm - 200 GRIT",
+"partNumber": "0444-0406",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT5 DRY POLISHING PAD - 125mm - 400 GRIT",
+"partNumber": "0444-0505",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT5 DRY POLISHING PAD - 125mm - 800 GRIT",
+"partNumber": "0444-0604",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT5 DRY POLISHING PAD - 125mm - 1500 GRIT",
+"partNumber": "0444-0703",
+"brand": "Worx+"
+},
+{
+"description": "IMPACT5 DRY POLISHING PAD - 125mm - 3000 GRIT",
+"partNumber": "0444-0802",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 LOCK NUT AND SPACER SET",
+"partNumber": "0440-9106",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 POLISHING CUP - 50 GRIT",
+"partNumber": "0440-0103",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 POLISHING CUP - 100 GRIT",
+"partNumber": "0440-0202",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 POLISHING CUP - 200 GRIT",
+"partNumber": "0440-0301",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 STARTER PACK: 50, 100, 200 GRIT PADS WITH LOCK NUT AND SPACER SET",
+"partNumber": "0440-9007",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 ENDURO POLISHING CUP - 50 GRIT",
+"partNumber": "0440-4101",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 ENDURO POLISHING CUP - 100 GRIT",
+"partNumber": "0440-4200",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 ENDURO POLISHING CUP - 200 GRIT",
+"partNumber": "0440-4309",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 5 ENDURO STARTER PACK: 50, 100, 200 GRIT PADS WITH LOCK NUT AND SPACER SET",
+"partNumber": "0440-9403",
+"brand": "Worx+"
+},
+{
+"description": "AQUA EDGE POLISHING PADS - 125mm - 50 GRIT",
+"partNumber": "0447-0106",
+"brand": "Worx+"
+},
+{
+"description": "AQUA EDGE POLISHING PADS - 125mm - 100 GRIT",
+"partNumber": "0447-0205",
+"brand": "Worx+"
+},
+{
+"description": "AQUA EDGE POLISHING PADS - 125mm - 200 GRIT",
+"partNumber": "0447-0304",
+"brand": "Worx+"
+},
+{
+"description": "AQUA EDGE POLISHING PADS - 125mm - 400 GRIT",
+"partNumber": "0447-0403",
+"brand": "Worx+"
+},
+{
+"description": "RAPID DRY POLISHING PAD - 125mm - 50 GRIT",
+"partNumber": "0449-0203",
+"brand": "Worx+"
+},
+{
+"description": "RAPID DRY POLISHING PAD - 125mm - 100 GRIT",
+"partNumber": "0449-0302",
+"brand": "Worx+"
+},
+{
+"description": "RAPID DRY POLISHING PAD - 125mm - 200 GRIT",
+"partNumber": "0449-0401",
+"brand": "Worx+"
+},
+{
+"description": "RAPID DRY POLISHING PAD - 125mm - 400 GRIT",
+"partNumber": "0449-0500",
+"brand": "Worx+"
+},
+{
+"description": "RAPID DRY POLISHING PAD - 125mm - 800 GRIT",
+"partNumber": "0449-0609",
+"brand": "Worx+"
+},
+{
+"description": "RAPID DRY POLISHING PAD - 125mm - 1500 GRIT",
+"partNumber": "0449-0708",
+"brand": "Worx+"
+},
+{
+"description": "RAPID DRY POLISHING PAD - 125mm - 3000 GRIT",
+"partNumber": "0449-0807",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 150mm - 50 GRIT",
+"partNumber": "0451-0109",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 150mm - 100 GRIT",
+"partNumber": "0451-0208",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 150mm - 200 GRIT",
+"partNumber": "0451-0307",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 150mm - 400 GRIT",
+"partNumber": "0451-0406",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 150mm - 800 GRIT",
+"partNumber": "0451-0505",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 150mm - 1500 GRIT",
+"partNumber": "0451-0604",
+"brand": "Worx+"
+},
+{
+"description": "HONEYCOMB DRY POLISHING PAD - 150mm - 3000 GRIT",
+"partNumber": "0451-0703",
+"brand": "Worx+"
+},
+{
+"description": "HALO6 DRY POLISHING PAD - 150mm - 30 GRIT - 3mm THICK",
+"partNumber": "0452-0108",
+"brand": "Worx+"
+},
+{
+"description": "HALO6 DRY POLISHING PAD - 150mm - 50 GRIT - 3mm THICK",
+"partNumber": "0452-0207",
+"brand": "Worx+"
+},
+{
+"description": "HALO6 DRY POLISHING PAD - 150mm - 100 GRIT - 3mm THICK",
+"partNumber": "0452-0306",
+"brand": "Worx+"
+},
+{
+"description": "HALO6 DRY POLISHING PAD - 150mm - 200 GRIT - 3mm THICK",
+"partNumber": "0452-0405",
+"brand": "Worx+"
+},
+{
+"description": "HALO6 DRY POLISHING PAD - 150mm - 400 GRIT - 3mm THICK",
+"partNumber": "0452-0504",
+"brand": "Worx+"
+},
+{
+"description": "HALO6 DRY POLISHING PAD - 150mm - 800 GRIT - 3mm THICK",
+"partNumber": "0452-0603",
+"brand": "Worx+"
+},
+{
+"description": "HALO6 DRY POLISHING PAD - 150mm - 1500 GRIT - 3mm THICK",
+"partNumber": "0452-0702",
+"brand": "Worx+"
+},
+{
+"description": "AQUA EDGE POLISHING PADS - 150mm - 50 GRIT",
+"partNumber": "0453-0503",
+"brand": "Worx+"
+},
+{
+"description": "AQUA EDGE POLISHING PADS - 150mm - 100 GRIT",
+"partNumber": "0453-0701",
+"brand": "Worx+"
+},
+{
+"description": "AQUA EDGE POLISHING PADS - 150mm - 200 GRIT",
+"partNumber": "0453-0909",
+"brand": "Worx+"
+},
+{
+"description": "AQUA EDGE POLISHING PADS - 150mm - 400 GRIT",
+"partNumber": "0453-1104",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 7 POLISHING CUP - 50 GRIT",
+"partNumber": "0440-2107",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 7 POLISHING CUP - 100 GRIT",
+"partNumber": "0440-2206",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 7 POLISHING CUP - 200 GRIT",
+"partNumber": "0440-2305",
+"brand": "Worx+"
+},
+{
+"description": "SPEC 7 STARTER PACK: 50, 100, 200 GRIT PADS WITH LOCK NUT AND SPACER SET",
+"partNumber": "0440-9304",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 50 GRIT - 125mm",
+"partNumber": "0493-0006",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 100 GRIT - 125mm",
+"partNumber": "0493-0105",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 200 GRIT - 125mm",
+"partNumber": "0493-0204",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 400 GRIT - 125mm",
+"partNumber": "0493-0303",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 800 GRIT - 125mm",
+"partNumber": "0493-0402",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 1500 GRIT - 125mm",
+"partNumber": "0493-0501",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 3000 GRIT - 125mm",
+"partNumber": "0493-0600",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 5000 GRIT - 125mm",
+"partNumber": "0493-0709",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 50 GRIT - 180mm",
+"partNumber": "0494-0005",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 100 GRIT - 180mm",
+"partNumber": "0494-0104",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 200 GRIT - 180mm",
+"partNumber": "0494-0203",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 400 GRIT - 180mm",
+"partNumber": "0494-0302",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 800 GRIT - 180mm",
+"partNumber": "0494-0401",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 1500 GRIT - 180mm",
+"partNumber": "0494-0500",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 3000 GRIT - 180mm",
+"partNumber": "0494-0609",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 50 GRIT - 200mm",
+"partNumber": "0498-0001",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 100 GRIT - 200mm",
+"partNumber": "0498-0018",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 200 GRIT - 200mm",
+"partNumber": "0498-0025",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 400 GRIT - 200mm",
+"partNumber": "0498-0032",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 800 GRIT - 200mm",
+"partNumber": "0498-0049",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 1500 GRIT - 200mm",
+"partNumber": "0498-0056",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 3000 GRIT - 200mm",
+"partNumber": "0498-0063",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 50 GRIT - 230mm",
+"partNumber": "0495-0004",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 100 GRIT - 230mm",
+"partNumber": "0495-0103",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 200 GRIT - 230mm",
+"partNumber": "0495-0202",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 400 GRIT - 230mm",
+"partNumber": "0495-0301",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 800 GRIT - 230mm",
+"partNumber": "0495-0400",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 1500 GRIT - 230mm",
+"partNumber": "0495-0509",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 3000 GRIT - 230mm",
+"partNumber": "0495-0608",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 5000 GRIT - 230mm",
+"partNumber": "0495-0707",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 50 GRIT - 280mm",
+"partNumber": "0496-0003",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 100 GRIT - 280mm",
+"partNumber": "0496-0102",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 200 GRIT - 280mm",
+"partNumber": "0496-0201",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 400 GRIT - 280mm",
+"partNumber": "0496-0300",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 800 GRIT - 280mm",
+"partNumber": "0496-0409",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 1500 GRIT - 280mm",
+"partNumber": "0496-0508",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 3000 GRIT - 280mm",
+"partNumber": "0496-0607",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 5000 GRIT - 280mm",
+"partNumber": "0496-0706",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 50 GRIT - 305mm",
+"partNumber": "0496-1109",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 100 GRIT - 305mm",
+"partNumber": "0496-1208",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 200 GRIT - 305mm",
+"partNumber": "0496-1307",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 400 GRIT - 305mm",
+"partNumber": "0496-1406",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 800 GRIT - 305mm",
+"partNumber": "0496-1505",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 1500 GRIT - 305mm",
+"partNumber": "0496-1604",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 3000 GRIT - 305mm",
+"partNumber": "0496-1703",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 50 GRIT - 330mm",
+"partNumber": "0496-2106",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 100 GRIT - 330mm",
+"partNumber": "0496-2205",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 200 GRIT - 330mm",
+"partNumber": "0496-2304",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 400 GRIT - 330mm",
+"partNumber": "0496-2403",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 800 GRIT - 330mm",
+"partNumber": "0496-2502",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 1500 GRIT - 330mm",
+"partNumber": "0496-2601",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 3000 GRIT - 330mm",
+"partNumber": "0496-2700",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 50 GRIT - 355mm",
+"partNumber": "0496-3103",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 100 GRIT - 355mm",
+"partNumber": "0496-3202",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 200 GRIT - 355mm",
+"partNumber": "0496-3301",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 400 GRIT - 355mm",
+"partNumber": "0496-3400",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 800 GRIT - 355mm",
+"partNumber": "0496-3509",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 1500 GRIT - 355mm",
+"partNumber": "0496-3608",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BUFFING PAD - 3000 GRIT - 355mm",
+"partNumber": "0496-3707",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 200 GRIT - 125mm",
+"partNumber": "0445-0108",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 400 GRIT - 125mm",
+"partNumber": "0445-0207",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 800 GRIT - 125mm",
+"partNumber": "0445-0306",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 1500 GRIT - 125mm",
+"partNumber": "0445-0405",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 3000 GRIT - 125mm",
+"partNumber": "0445-0504",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 8000 GRIT - 125mm",
+"partNumber": "0445-0603",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 200 GRIT - 180mm",
+"partNumber": "0461-0106",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 400 GRIT - 180mm",
+"partNumber": "0461-0205",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 800 GRIT - 180mm",
+"partNumber": "0461-0304",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 1500 GRIT - 180mm",
+"partNumber": "0461-0403",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 3000 GRIT - 180mm",
+"partNumber": "0461-0502",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 200 GRIT - 230mm",
+"partNumber": "0471-0103",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 400 GRIT - 230mm",
+"partNumber": "0471-0202",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 800 GRIT - 230mm",
+"partNumber": "0471-0301",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 1500 GRIT - 230mm",
+"partNumber": "0471-0400",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 3000 GRIT - 230mm",
+"partNumber": "0471-0509",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 8000 GRIT - 230mm",
+"partNumber": "0471-0608",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 200 GRIT - 280mm",
+"partNumber": "0481-0100",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 400 GRIT - 280mm",
+"partNumber": "0481-0209",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 800 GRIT - 280mm",
+"partNumber": "0481-0308",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 1500 GRIT - 280mm",
+"partNumber": "0481-0407",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 3000 GRIT - 280mm",
+"partNumber": "0481-0506",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 200 GRIT - 330mm",
+"partNumber": "0481-2302",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 400 GRIT - 330mm",
+"partNumber": "0481-2401",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 800 GRIT - 330mm",
+"partNumber": "0481-2500",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 1500 GRIT - 330mm",
+"partNumber": "0481-2609",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 3000 GRIT - 330mm",
+"partNumber": "0481-2708",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 200 GRIT - 500mm",
+"partNumber": "0491-0107",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 400 GRIT - 500mm",
+"partNumber": "0491-0206",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 800 GRIT - 500mm",
+"partNumber": "0491-0305",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 1500 GRIT - 500mm",
+"partNumber": "0491-0404",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 3000 GRIT - 500mm",
+"partNumber": "0491-0503",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 8000 GRIT - 500mm",
+"partNumber": "0491-0602",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 200 GRIT - 610mm",
+"partNumber": "0483-0108",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 400 GRIT - 610mm",
+"partNumber": "0483-0207",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 800 GRIT - 610mm",
+"partNumber": "0483-0306",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 1500 GRIT - 610mm",
+"partNumber": "0483-0405",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 3000 GRIT - 610mm",
+"partNumber": "0483-0504",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 400 GRIT - 686mm",
+"partNumber": "0499-1205",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 800 GRIT - 686mm",
+"partNumber": "0499-1304",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 1500 GRIT - 686mm",
+"partNumber": "0499-1403",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO HD BUFFING PAD - 3000 GRIT - 686mm",
+"partNumber": "0499-1502",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY RESTORE CONCENTRATE (TRC) - GROUTING LIQUID - CONCENTRATE - 15L",
+"partNumber": "0520-1105",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY RESTORE CONCENTRATE - 1000L",
+"partNumber": "0520-0108",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY RESTORE REGULAR (TRR) - GROUTING LIQUID - 15L",
+"partNumber": "0520-2201",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY BOOST POTASSIUM (TBP) - 15L",
+"partNumber": "0530-2208",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY BOOST LITHIUM (TBL) - 15L",
+"partNumber": "0530-3304",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY DEFEND (TDISE) - IMPREGNATING SEALER - SOLVENT BASED - COLOUR ENHANCER - 5L",
+"partNumber": "0541-0101",
+"brand": "Worx+"
+},
+{
+"description": "DEFEND WATER BASED SEALER (TDIWE) 5L",
+"partNumber": "0541-0507",
+"brand": "Worx+"
+},
+{
+"description": "PEN-X TOTALLY DEFEND PENETRATING SEALER 20L",
+"partNumber": "0541-3201",
+"brand": "Worx+"
+},
+{
+"description": "PEN-X THINNERS 10L",
+"partNumber": "0541-4109",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY DEFEND WATER BASED POLYURETHANE UV STABLE SEALER - MATTE - 5L KIT",
+"partNumber": "0542-0209",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY DEFEND WATER BASED POLYURETHANE UV STABLE SEALER - MATTE - 20L",
+"partNumber": "0542-0308",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY DEFEND WATER BASED POLYURETHANE UV STABLE COLOUR ENHANCING SEALER - GLOSS - 5L KIT",
+"partNumber": "0542-0506",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY DEFEND WATER BASED POLYURETHANE UV STABLE COLOUR ENHANCING SEALER - GLOSS - 20L",
+"partNumber": "0542-0605",
+"brand": "Worx+"
+},
+{
+"description": "DEFEND WB PU - PART B 4L",
+"partNumber": "0542-0704",
+"brand": "Worx+"
+},
+{
+"description": "CUT SIKK REGULAR - GRINDING ACCELLERATOR - 10L",
+"partNumber": "0550-0901",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY CARE – FLOOR CLEANER 1L TCFC",
+"partNumber": "0560-0106",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY CARE – FLOOR CLEANER 5L TCFC",
+"partNumber": "0560-0205",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY REPAIR RESIN TRANSPARENT 1L TRPRT",
+"partNumber": "0570-0806",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY REPAIR RESIN HARDENER 30g",
+"partNumber": "0570-1100",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY REPAIR TINT WHITE (TRTW)",
+"partNumber": "0570-0905",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY REPAIR TINT BLACK (TRTB)",
+"partNumber": "0570-1001",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY REPAIR PATCHING COMPOUND, GREY, 20KG",
+"partNumber": "0570-0301",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY REPAIR CEMENTITOUS PATCHING COMPOUND - WHITE (TRPCW) - 20KG",
+"partNumber": "0570-4408",
+"brand": "Worx+"
+},
+{
+"description": "TOTALLY REPAIR REDI-FIX - 2 PACK",
+"partNumber": "0570-5306",
+"brand": "Worx+"
+},
+{
+"description": "POWER LEAD - 6mm BLACK FLEX CABLE WITH 4-PIN 32A PLUGS - 12m",
+"partNumber": "0620-0107",
+"brand": "Worx+"
+},
+{
+"description": "POWER LEAD - 6mm BLACK FLEX CABLE WITH 4-PIN 32A PLUGS - 20m",
+"partNumber": "0620-0206",
+"brand": "Worx+"
+},
+{
+"description": "POWER LEAD - 6mm BLACK FLEX CABLE WITH 4-PIN 32A PLUGS - 30m",
+"partNumber": "0620-0305",
+"brand": "Worx+"
+},
+{
+"description": "POWER LEAD - 6mm BLACK FLEX CABLE WITH 5-PIN 32A PLUGS - 20m",
+"partNumber": "0620-1104",
+"brand": "Worx+"
+},
+{
+"description": "POWER LEAD - 6mm BLACK FLEX CABLE WITH 5-PIN 32A PLUGS - 30m",
+"partNumber": "0620-1203",
+"brand": "Worx+"
+},
+{
+"description": "POWER LEAD - 6mm BLACK FLEX CABLE WITH 5-PIN 32A PLUGS - 50m",
+"partNumber": "0620-1302",
+"brand": "Worx+"
+},
+{
+"description": "POWER LEAD - 10mm BLACK FLEX CABLE WITH 5-PIN 32A PLUGS - 50m",
+"partNumber": "0620-2101",
+"brand": "Worx+"
+},
+{
+"description": "POWER LEAD - 6mm BLACK FLEX CABLE WITH 80A RECTANGULAR PLUGS - 12m",
+"partNumber": "0620-3108",
+"brand": "Worx+"
+},
+{
+"description": "ADAPTER LEAD GRINDER - 80A RECT FEMALE, 32A 4P RND MALE, 0.5m",
+"partNumber": "0620-5102",
+"brand": "Worx+"
+},
+{
+"description": "ADAPTER LEAD GRINDER - 80A RECT FEMALE, 32A 4P RND MALE, 12m",
+"partNumber": "0620-5201",
+"brand": "Worx+"
+},
+{
+"description": "ADAPTER LEAD VACUUM - 80A RECT. MALE , 32A RND 4P FEMALE, 0.5m",
+"partNumber": "0620-6109",
+"brand": "Worx+"
+},
+{
+"description": "ADAPTER LEAD VACUUM - 80A RECT. MALE , 32A RND 4P FEMALE, 12m",
+"partNumber": "0620-6208",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE MOUNTING DISCS - CORNER",
+"partNumber": "0630-1101",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE MOUNTING DISCS - 75mm",
+"partNumber": "0630-1705",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE MOUNTING DISCS - 125mm",
+"partNumber": "0630-1200",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE MOUNTING DISCS - 150mm",
+"partNumber": "0630-1309",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE MOUNTING DISCS - 180mm",
+"partNumber": "0630-1408",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE MOUNTING DISCS - 230mm",
+"partNumber": "0630-1507",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE MOUNTING DISCS - 270mm",
+"partNumber": "0630-1606",
+"brand": "Worx+"
+},
+{
+"description": "GK700 RIP CHANGE RESIN",
+"partNumber": "0630-1903",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE MOUNTING DISCS - 330mm",
+"partNumber": "0630-1804",
+"brand": "Worx+"
+},
+{
+"description": "GK850 RIP CHANGE RESIN",
+"partNumber": "0630-2009",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE BURNISHING PAD MOUNTING DISCS - 125mm",
+"partNumber": "0630-4508",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE BURNISHING PAD MOUNTING DISCS - 150mm",
+"partNumber": "0630-4409",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE BURNISHING PAD MOUNTING DISCS - 180mm",
+"partNumber": "0630-4102",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE BURNISHING PAD MOUNTING DISCS - 230mm",
+"partNumber": "0630-4201",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE BURNISHING PAD MOUNTING DISCS - 270mm",
+"partNumber": "0630-4300",
+"brand": "Worx+"
+},
+{
+"description": "GK700 RIP CHANGE BURNISHING",
+"partNumber": "0630-4805",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE BURNISHING PAD MOUNTING DISCS - 305mm",
+"partNumber": "0630-4607",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE BURNISHING PAD MOUNTING DISCS - 330mm",
+"partNumber": "0630-4706",
+"brand": "Worx+"
+},
+{
+"description": "GK850 RIP CHANGE BURNISHING",
+"partNumber": "0630-4904",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE FLEX - 80mm",
+"partNumber": "0630-3402",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE FLEX - 125mm",
+"partNumber": "0630-2306",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE FLEX - 230mm",
+"partNumber": "0630-2108",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE FLEX - 270mm",
+"partNumber": "0630-2207",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE FLEX - 290mm",
+"partNumber": "0630-2504",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE FLEX - 330mm",
+"partNumber": "0630-2405",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE FLEX - 350mm",
+"partNumber": "0630-2603",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING / POLISHING PAD, MOUNT ADAPTORS - LITTLE RIPPERS - 80mm",
+"partNumber": "0630-3105",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING / POLISHING PAD, MOUNT ADAPTORS - LITTLE RIPPERS - 125mm",
+"partNumber": "0630-3303",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING / POLISHING PAD, MOUNT ADAPTORS - MAXI RIPPERS - 80mm",
+"partNumber": "0630-3204",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE PRO 230",
+"partNumber": "0630-6403",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE PRO 270",
+"partNumber": "0630-6502",
+"brand": "Worx+"
+},
+{
+"description": "GK700 RIP CHANGE PRO",
+"partNumber": "0630-6700",
+"brand": "Worx+"
+},
+{
+"description": "RIP CHANGE PRO 330",
+"partNumber": "0630-6601",
+"brand": "Worx+"
+},
+{
+"description": "GK850 RIP CHANGE PRO",
+"partNumber": "0630-6809",
+"brand": "Worx+"
+},
+{
+"description": "POLISHING PAD PLASTIC BACKER - DRILL - 75mm",
+"partNumber": "0641-1107",
+"brand": "Worx+"
+},
+{
+"description": "POLISHING PAD ALUMINIUM BACKER WITH M10 THREAD - 75mm",
+"partNumber": "0641-1206",
+"brand": "Worx+"
+},
+{
+"description": "POLISHING PAD PLASTIC BACKER - M14 - 125mm",
+"partNumber": "0641-2104",
+"brand": "Worx+"
+},
+{
+"description": "POLISHING PAD ALUMINIUM BACKER WITH M14 THREAD - 125mm",
+"partNumber": "0641-2203",
+"brand": "Worx+"
+},
+{
+"description": "POLISHING PAD ALUMINIUM BACKER WITH M14 THREAD - 150mm",
+"partNumber": "0641-3101",
+"brand": "Worx+"
+},
+{
+"description": "POLISHING PAD ALUMINIUM BACKER WITH M14 THREAD - 230mm",
+"partNumber": "0641-5105",
+"brand": "Worx+"
+},
+{
+"description": "5\" ALUMINIUM DUST SHROUD KIT for 5\"/125mm MAKITA PC5010CJ ANGLE GRINDER",
+"partNumber": "0642-3100",
+"brand": "Worx+"
+},
+{
+"description": "5\" ALUMINIUM DUST SHROUD KIT for 5\" METABO 00468191 WEV 15-125",
+"partNumber": "0642-3407",
+"brand": "Worx+"
+},
+{
+"description": "5\" ALUMINIUM DUST SHROUD KIT for 7\"/180mm HiKOKI/HITACHI SP18VA",
+"partNumber": "0642-1205",
+"brand": "Worx+"
+},
+{
+"description": "5\" ALUMINIUM DUST SHROUD KIT for 7\"/180mm MAKITA SA7000C VARIABLE SPEED POLISHER",
+"partNumber": "0642-1212",
+"brand": "Worx+"
+},
+{
+"description": "38mm HOSE for 5\" DUST SHROUD, 40cm",
+"partNumber": "0642-4107",
+"brand": "Worx+"
+},
+{
+"description": "SKIRT for 5\" DUST SHROUD 4/PK",
+"partNumber": "0642-4206",
+"brand": "Worx+"
+},
+{
+"description": "REPLACEMENT VECLRO for WORX 5\" DUST SHROUD",
+"partNumber": "0642-4305",
+"brand": "Worx+"
+},
+{
+"description": "WORX+ 5\" VERSA FIT DUST SHROUD",
+"partNumber": "0642-5104",
+"brand": "Worx+"
+},
+{
+"description": "REPLACEMENT BRUSH SET for VERSA FIT 5\" DUST SHROUD",
+"partNumber": "0642-5807",
+"brand": "Worx+"
+},
+{
+"description": "WORX+ 7\" VERSA FIT DUST SHROUD",
+"partNumber": "0642-5203",
+"brand": "Worx+"
+},
+{
+"description": "REPLACEMENT BRUSH SET for VERSA FIT 7\" DUST SHROUD",
+"partNumber": "0642-5906",
+"brand": "Worx+"
+},
+{
+"description": "WORX+ VERSA FIT HOSE ADAPTOR",
+"partNumber": "0642-5708",
+"brand": "Worx+"
+},
+{
+"description": "5\"/125mm BLACK COMPOSITE DUST SHROUD for most 5\"/125mm MAKITA/HITACHI/BOSCH/METABO",
+"partNumber": "0642-1304",
+"brand": "Worx+"
+},
+{
+"description": "RUBBER DIAPHRAGM FOR 5\" BLACK COMPOSITE DUST SHROUD",
+"partNumber": "0642-3209",
+"brand": "Worx+"
+},
+{
+"description": "WEAR STRIPS FOR 5\" BLACK COMPOSITE DUST SHROUD",
+"partNumber": "0642-3308",
+"brand": "Worx+"
+},
+{
+"description": "7\"/180mm BLACK COMPOSITE DUST SHROUD for most 7\" & 9\" MAKITA/HITACHI",
+"partNumber": "0642-2103",
+"brand": "Worx+"
+},
+{
+"description": "7\"/180mm ALUMINIUM DUST SHROUD for most 7\" & 9\" MAKITA/HITACHI",
+"partNumber": "0642-2202",
+"brand": "Worx+"
+},
+{
+"description": "7\" SHROUD COLLAR ADAPTOR - BOSCH, RAMSET & KEYANG",
+"partNumber": "0642-2905",
+"brand": "Worx+"
+},
+{
+"description": "RUBBER DIAPHRAGM FOR 7\" DUST SHROUD",
+"partNumber": "0642-0406",
+"brand": "Worx+"
+},
+{
+"description": "WEAR STRIPS FOR 7\" DUST SHROUD",
+"partNumber": "0642-2806",
+"brand": "Worx+"
+},
+{
+"description": "12V COMPLETE MACHINE LIGHT KIT",
+"partNumber": "0650-1105",
+"brand": "Worx+"
+},
+{
+"description": "12V COMPLETE MACHINE LIGHT KIT FOR RC MACHINE",
+"partNumber": "0650-1303",
+"brand": "Worx+"
+},
+{
+"description": "WATER FEED KIT",
+"partNumber": "0650-2102",
+"brand": "Worx+"
+},
+{
+"description": "GK700 REDI LOCK HOLDER DISC",
+"partNumber": "0652-4302",
+"brand": "Worx+"
+},
+{
+"description": "GK850 REDI LOCK HOLDER DISC",
+"partNumber": "0652-4500",
+"brand": "Worx+"
+},
+{
+"description": "PG450 REDI LOCK DIAMOND HOLDER DISC WITH LOCK IN THREADS",
+"partNumber": "0652-1301",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680 REDI LOCK DIAMOND HOLDER DISC WITH LOCK IN THREADS",
+"partNumber": "0652-1103",
+"brand": "Worx+"
+},
+{
+"description": "PG820 REDI LOCK DIAMOND HOLDER DISC WITH LOCK IN THREADS",
+"partNumber": "0652-1202",
+"brand": "Worx+"
+},
+{
+"description": "HTC420 REDI LOCK DIAMOND HOLDER DISC",
+"partNumber": "0652-2209",
+"brand": "Worx+"
+},
+{
+"description": "HTC550/650 REDI LOCK DIAMOND HOLDER DISC",
+"partNumber": "0652-2308",
+"brand": "Worx+"
+},
+{
+"description": "HTC800/950 REDI LOCK DIAMOND HOLDER DISC",
+"partNumber": "0652-2407",
+"brand": "Worx+"
+},
+{
+"description": "HTC 270 Edger REDI LOCK DIAMOND HOLDER DISC",
+"partNumber": "0652-2100",
+"brand": "Worx+"
+},
+{
+"description": "KLINDEX 200mm (EXPANDER 530) REDI LOCK DISC",
+"partNumber": "0652-3107",
+"brand": "Worx+"
+},
+{
+"description": "REDI LOCK HOLDER DISC, KLINDEX 240mm (EXPANDER 580, 650, 750, 850, 999 & 1000)",
+"partNumber": "0652-3206",
+"brand": "Worx+"
+},
+{
+"description": "REDI LOCK HOLDER TRAPEZOID ADAPTOR PLATE",
+"partNumber": "0652-5101",
+"brand": "Worx+"
+},
+{
+"description": "REDI LOCK DIAMOND HOLDER PLUG ADAPTOR WITH LOCK IN THREADS",
+"partNumber": "0652-5200",
+"brand": "Worx+"
+},
+{
+"description": "SATELLITE REDI LOCK DIAMOND HOLDER DISC",
+"partNumber": "0652-8102",
+"brand": "Worx+"
+},
+{
+"description": "METEOR 250 REDI LOCK DIAMOND HOLDER DISC",
+"partNumber": "0652-8300",
+"brand": "Worx+"
+},
+{
+"description": "SCHWAMBORN 250 REDI LOCK DIAMOND HOLDER DISC",
+"partNumber": "0652-8409",
+"brand": "Worx+"
+},
+{
+"description": "PG450 POLISHING PAD HOLDER DISC",
+"partNumber": "0653-1300",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680 POLISHING PAD HOLDER DISC",
+"partNumber": "0653-1102",
+"brand": "Worx+"
+},
+{
+"description": "PG820 POLISHING PAD HOLDER DISC",
+"partNumber": "0653-1201",
+"brand": "Worx+"
+},
+{
+"description": "HTC550/650 POLISHING PAD HOLDER DISC",
+"partNumber": "0653-2109",
+"brand": "Worx+"
+},
+{
+"description": "HTC800/950 POLISHING PAD HOLDER DISC",
+"partNumber": "0653-2208",
+"brand": "Worx+"
+},
+{
+"description": "KLINDEX 200mm (EXPANDER 530) POLISHING PAD HOLDER DISC",
+"partNumber": "0653-3106",
+"brand": "Worx+"
+},
+{
+"description": "KLINDEX 240mm POLISHING PAD HOLDER DISC (EXPANDER 580, 650, 750, 850, 999 & 1000)",
+"partNumber": "0653-3205",
+"brand": "Worx+"
+},
+{
+"description": "GK700 RESIN HOLDER DISC",
+"partNumber": "0653-4301",
+"brand": "Worx+"
+},
+{
+"description": "GK850 RESIN HOLDER DISC",
+"partNumber": "0653-4509",
+"brand": "Worx+"
+},
+{
+"description": "PG530 SUPER DURABLE SKIRT WITH OVERLAPPING TAB - RED",
+"partNumber": "0655-1100",
+"brand": "Worx+"
+},
+{
+"description": "PG680 SUPER DURABLE SKIRT WITH OVERLAPPING TAB - RED",
+"partNumber": "0655-2107",
+"brand": "Worx+"
+},
+{
+"description": "PG820 SUPER DURABLE SKIRT WITH OVERLAPPING TAB - NON MARKING RED",
+"partNumber": "0655-3104",
+"brand": "Worx+"
+},
+{
+"description": "GK700 SUPER DURABLE SKIRT WITH OVERLAPPING TAB - RED",
+"partNumber": "0655-4101",
+"brand": "Worx+"
+},
+{
+"description": "GK850 SUPER DURABLE SKIRT WITH OVERLAPPING TAB - RED",
+"partNumber": "0655-5108",
+"brand": "Worx+"
+},
+{
+"description": "PLASTIC DUST BAGS 100 micron - BOX OF 200",
+"partNumber": "0660-1102",
+"brand": "Worx+"
+},
+{
+"description": "CONTINUOUS FOLDING BAGS (LONGOPAC), 4/PK",
+"partNumber": "0660-1201",
+"brand": "Worx+"
+},
+{
+"description": "CONTINUOUS FOLDING BAGS (LONGOPAC), 2/PK",
+"partNumber": "0660-1300",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 BAG HOLDER FRAME",
+"partNumber": "0660-2109",
+"brand": "Worx+"
+},
+{
+"description": "LONGOPAC COLLAR",
+"partNumber": "0660-2307",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 REPLACEMENT HOSE WITH FITTINGS - 4.5m",
+"partNumber": "0661-1101",
+"brand": "Worx+"
+},
+{
+"description": "38mm FLEXIBLE VACUUM HOSE STEEL COIL",
+"partNumber": "0661-2108",
+"brand": "Worx+"
+},
+{
+"description": "50mm VACUUM HOSE ANTISTATIC - 10m",
+"partNumber": "0661-3105",
+"brand": "Worx+"
+},
+{
+"description": "50mm ANTISTATIC HOSE WITH 3\" CAMLOCK & PLASTIC TAPERED BORE",
+"partNumber": "0661-3204",
+"brand": "Worx+"
+},
+{
+"description": "50mm VACUUM HOSE - ANTISTATIC - 20m",
+"partNumber": "0661-3303",
+"brand": "Worx+"
+},
+{
+"description": "75mm VACUUM HOSE - ANTISTATIC - 10m",
+"partNumber": "0661-4119",
+"brand": "Worx+"
+},
+{
+"description": "75mm VACUUM HOSE - ANTISTATIC - 10m WITH ALUMINIUM KAMLOCK FITTINGS",
+"partNumber": "0661-4218",
+"brand": "Worx+"
+},
+{
+"description": "75mm VACUUM HOSE - ANTISTATIC - 20m",
+"partNumber": "0661-4317",
+"brand": "Worx+"
+},
+{
+"description": "75mm VACUUM HOSE - ANTISTATIC - 30m",
+"partNumber": "0661-4416",
+"brand": "Worx+"
+},
+{
+"description": "75mm VACUUM HOSE - ANTISTATIC - 2m WITH ALUMINIUM KAMLOCK FITTINGS",
+"partNumber": "0661-4508",
+"brand": "Worx+"
+},
+{
+"description": "38mm INSERT for 50mm HOSE ADAPTOR",
+"partNumber": "0661-6205",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 MK2, 50/38mm HOSE ADAPTOR",
+"partNumber": "0661-6304",
+"brand": "Worx+"
+},
+{
+"description": "DURASLEEVE 3\" HOSE COVER 10m",
+"partNumber": "0661-7103",
+"brand": "Worx+"
+},
+{
+"description": "50mm VACUUM HOSE WAND ADAPTOR WITH 38mm TAPERED BORE - PLASTIC",
+"partNumber": "0662-1209",
+"brand": "Worx+"
+},
+{
+"description": "VACUUM WAND for 38mm VACUUM FLOOR TOOL",
+"partNumber": "0662-1117",
+"brand": "Worx+"
+},
+{
+"description": "450mm WET/DRY HEAD for 38mm VACUUM FLOOR TOOL",
+"partNumber": "0662-2114",
+"brand": "Worx+"
+},
+{
+"description": "RUBBER STRIPS SET for 38mm VACUUM FLOOR TOOL",
+"partNumber": "0662-4309",
+"brand": "Worx+"
+},
+{
+"description": "BRUSH SET for 38mm VACUUM FLOOR TOOL",
+"partNumber": "0662-5306",
+"brand": "Worx+"
+},
+{
+"description": "VACUUM WAND for 50mm VACUUM FLOOR TOOL",
+"partNumber": "0662-1124",
+"brand": "Worx+"
+},
+{
+"description": "450mm WET/DRY HEAD for 50mm VACUUM FLOOR TOOL",
+"partNumber": "0662-2121",
+"brand": "Worx+"
+},
+{
+"description": "RUBBER STRIPS SET for 50mm VACUUM FLOOR TOOL",
+"partNumber": "0662-4323",
+"brand": "Worx+"
+},
+{
+"description": "BRUSH SET for 50mm VACUUM FLOOR TOOL",
+"partNumber": "0662-5320",
+"brand": "Worx+"
+},
+{
+"description": "CST1000: CleanSpace™ PRO Power System",
+"partNumber": "0671-2105",
+"brand": "Worx+"
+},
+{
+"description": "CST1010: CleanSpace™ ULTRA Power System",
+"partNumber": "0671-2204",
+"brand": "Worx+"
+},
+{
+"description": "PAF-1010: CleanSpace™ Half Mask MEDIUM",
+"partNumber": "0672-0100",
+"brand": "Worx+"
+},
+{
+"description": "PAF-0027: CleanSpace™ Half Mask LARGE",
+"partNumber": "0672-0209",
+"brand": "Worx+"
+},
+{
+"description": "PAF-1014: CleanSpace™ Full Face Mask MEDIUM / LARGE",
+"partNumber": "0672-0407",
+"brand": "Worx+"
+},
+{
+"description": "CST1034: CleanSpace™ CST Half Mask Small inc Harness",
+"partNumber": "0672-2104",
+"brand": "Worx+"
+},
+{
+"description": "CST1035: CleanSpace™ CST Half Mask Medium inc Harness",
+"partNumber": "0672-2203",
+"brand": "Worx+"
+},
+{
+"description": "CST1036: CleanSpace™ CST Half Mask Large inc Harness",
+"partNumber": "0672-2302",
+"brand": "Worx+"
+},
+{
+"description": "CST1017: CleanSpace™ CST Full Face Mask Small",
+"partNumber": "0672-2401",
+"brand": "Worx+"
+},
+{
+"description": "CST1018: CleanSpace™ CST Full Face Mask Medium/ Large",
+"partNumber": "0672-2500",
+"brand": "Worx+"
+},
+{
+"description": "PAF-0035: CleanSpace Particulate Filter P3 Standard (pk 3)",
+"partNumber": "0673-0109",
+"brand": "Worx+"
+},
+{
+"description": "PAF-0037: CleanSpace™ Hi Capacity (HI CAP) Particulate Filter P3 (single)",
+"partNumber": "0673-0505",
+"brand": "Worx+"
+},
+{
+"description": "PAF-0076: CleanSpace™ ABEK1 P3 P SL R Combined filter (Australia Only)",
+"partNumber": "0673-0703",
+"brand": "Worx+"
+},
+{
+"description": "CST1005: CleanSpace™ CST Particulate Standard TM3 P3 Filter (3pk)",
+"partNumber": "0673-2103",
+"brand": "Worx+"
+},
+{
+"description": "CST1004: CleanSpace CST Particulate Filter HEPA/TM3/P3 (3Pk)",
+"partNumber": "0673-2202",
+"brand": "Worx+"
+},
+{
+"description": "CST1007: CleanSpace™ CST ABEK1 P3 P SL R Combined Filter- Australia Only",
+"partNumber": "0673-2301",
+"brand": "Worx+"
+},
+{
+"description": "PAF-0036: CleanSpace™ Particulate Pre-filter (Standard Filter) (pk 10)",
+"partNumber": "0674-0108",
+"brand": "Worx+"
+},
+{
+"description": "PAF-0057: CleanSpace™ Particulate Pre-Filter (Large Case Filters) (pk 20)",
+"partNumber": "0674-0207",
+"brand": "Worx+"
+},
+{
+"description": "PAF-0058: CleanSpace™ Particulate Pre-Filter and Coverall (Standard Filter) (pk 20)",
+"partNumber": "0674-0306",
+"brand": "Worx+"
+},
+{
+"description": "PAF-1024: CleanSpace Car Charger",
+"partNumber": "0675-0909",
+"brand": "Worx+"
+},
+{
+"description": "CST1024: CleanSpace™ CST Cleaning & Storage Plug",
+"partNumber": "0675-2101",
+"brand": "Worx+"
+},
+{
+"description": "PAF-1101: CleanSpace Battery Charger (ALL MODELS)",
+"partNumber": "0676-0106",
+"brand": "Worx+"
+},
+{
+"description": "CST1019: CleanSpace™ CST Neck Support Small",
+"partNumber": "0676-2100",
+"brand": "Worx+"
+},
+{
+"description": "CST1020: CleanSpace™ CST Neck Support Medium",
+"partNumber": "0676-2209",
+"brand": "Worx+"
+},
+{
+"description": "CST1021: CleanSpace™ CST Harness",
+"partNumber": "0676-2308",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING PAD - BLUE - 240mm",
+"partNumber": "0680-1106",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING PAD - BLUE - 280mm",
+"partNumber": "0680-1205",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING PAD - BLUE - 500mm",
+"partNumber": "0680-1304",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING PAD - RED - 500mm",
+"partNumber": "0680-1403",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING PAD - BLACK - 240mm",
+"partNumber": "0680-1502",
+"brand": "Worx+"
+},
+{
+"description": "BURNISHING PAD - BLACK - 280mm",
+"partNumber": "0680-1601",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BURNISHING PAD - 125mm",
+"partNumber": "0680-1908",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BURNISHING PAD - 230mm",
+"partNumber": "0680-1700",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BURNISHING PAD - 280mm",
+"partNumber": "0680-1809",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BURNISHING PAD - 305mm",
+"partNumber": "0680-1915",
+"brand": "Worx+"
+},
+{
+"description": "TEMPO XD BURNISHING PAD - 355mm",
+"partNumber": "0680-1922",
+"brand": "Worx+"
+},
+{
+"description": "MICRO FIBRE 600mm APPLICATOR/MOP WITH HANDLE",
+"partNumber": "0680-2110",
+"brand": "Worx+"
+},
+{
+"description": "MICRO FIBRE 900mm APPLICATOR/MOP WITH HANDLE",
+"partNumber": "0680-2127",
+"brand": "Worx+"
+},
+{
+"description": "MICRO FIBRE 1200mm APPLICATOR/MOP WITH HANDLE",
+"partNumber": "0680-2134",
+"brand": "Worx+"
+},
+{
+"description": "MICRO FIBRE MOP REFILL 600mm",
+"partNumber": "0680-2219",
+"brand": "Worx+"
+},
+{
+"description": "MICRO FIBRE MOP REFILL 900mm",
+"partNumber": "0680-2226",
+"brand": "Worx+"
+},
+{
+"description": "MICRO FIBRE MOP REFILL 1200mm",
+"partNumber": "0680-2233",
+"brand": "Worx+"
+},
+{
+"description": "HANDLE FOR MICRO FIBRE MOP APPLICATOR",
+"partNumber": "0680-2417",
+"brand": "Worx+"
+},
+{
+"description": "MOP APPLICATOR REPLACEMENT SWIVEL CONNECTOR",
+"partNumber": "0680-2516",
+"brand": "Worx+"
+},
+{
+"description": "SUPER SOFT BROOM HANDLE - WOODEN",
+"partNumber": "0680-3100",
+"brand": "Worx+"
+},
+{
+"description": "SUPER SOFT BROOM HEAD - 600mm",
+"partNumber": "0680-3209",
+"brand": "Worx+"
+},
+{
+"description": "SUPER SOFT BROOM WITH HANDLE - 600mm GREEN BRISTLES",
+"partNumber": "0680-3308",
+"brand": "Worx+"
+},
+{
+"description": "CAULKING GUN for REDI-FIX",
+"partNumber": "0680-4206",
+"brand": "Worx+"
+},
+{
+"description": "REPAIR REDI-FIX NOZZLE",
+"partNumber": "0680-4305",
+"brand": "Worx+"
+},
+{
+"description": "CHEMICAL SPRAYER - 13L WITH FINE AND MEDIUM SPRAY NOZZLE - TRIGGER HANDLE WITH NON-DRIP NOZZLE",
+"partNumber": "0681-1105",
+"brand": "Worx+"
+},
+{
+"description": "CHEMICAL SPRAYER REPLACEMENT NON-DRIP TRIGGER AND WAND",
+"partNumber": "0681-2102",
+"brand": "Worx+"
+},
+{
+"description": "CHEMICAL SPRAYER REPLACEMENT HOSE",
+"partNumber": "0681-3109",
+"brand": "Worx+"
+},
+{
+"description": "CHEMICAL SPRAYER NOZZLE - FINE",
+"partNumber": "0681-4106",
+"brand": "Worx+"
+},
+{
+"description": "CHEMICAL SPRAYER NOZZLE - COARSE",
+"partNumber": "0681-4205",
+"brand": "Worx+"
+},
+{
+"description": "CHAPIN PUMP SPRAYER SEAL KIT",
+"partNumber": "0681-5103",
+"brand": "Worx+"
+},
+{
+"description": "CHEMICAL SPRAYER TRIGGER SEAL",
+"partNumber": "0681-5202",
+"brand": "Worx+"
+},
+{
+"description": "RECHARGEABLE SPRAYER WITH TROLLEY and SPARE BATTERY",
+"partNumber": "0681-6100",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT SPRAY GUN",
+"partNumber": "0681-6902",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT ADJUSTABLE SPRAY NOZZLE",
+"partNumber": "0681-6803",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT 3 HEAD SPRAY NOZZLE",
+"partNumber": "0681-7008",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT WAND",
+"partNumber": "0681-6605",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT HOSE - 10M",
+"partNumber": "0681-6704",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT LID",
+"partNumber": "0681-7206",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT BASKET STRAINER",
+"partNumber": "0681-6209",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT DRAINAGE CAP",
+"partNumber": "0681-7107",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT PICK-UP LINE including ELBOW CONNECTION",
+"partNumber": "0681-6308",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT MICRO SWITCH",
+"partNumber": "0681-7404",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT BATTERY",
+"partNumber": "0681-7503",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT BATTERY CHARGER",
+"partNumber": "0681-7602",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT BATTERY HOUSING",
+"partNumber": "0681-7701",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT SWITCH",
+"partNumber": "0681-7800",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT PUMP",
+"partNumber": "0681-7909",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT CIRCUIT BOARD",
+"partNumber": "0681-8401",
+"brand": "Worx+"
+},
+{
+"description": "CIRCUIT BOARD CONNECTION CABLE for ELECTRIC SPRAYER.",
+"partNumber": "0681-8708",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER REPLACEMENT CASTOR WHEEL",
+"partNumber": "0681-8104",
+"brand": "Worx+"
+},
+{
+"description": "SPRAYER TROLLEY 12MM AXLE CAPS",
+"partNumber": "0681-8203",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRIC SPRAYER DRIP CATCHER",
+"partNumber": "0681-8302",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Trade Industrial Nylon 100mm Mini Roller Cover, 10 Pack",
+"partNumber": "0682-1104",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Unifiber 270mm Roller Cover 11mm Nap for Solvent Based",
+"partNumber": "0682-1203",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Unifiber 270mm Roller Covers 11mm Nap for Solvent Based, 6 Pack",
+"partNumber": "0682-1302",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Unifiber 460mm Roller Cover 11mm Nap for Solvent Based",
+"partNumber": "0682-1401",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO High Tech Microfibre 270mm Roller Cover, 15mm Nap for Water Based",
+"partNumber": "0682-1500",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO High Tech Microfibre 360mm Roller Cover, 15mm Nap for Water Based",
+"partNumber": "0682-1609",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO High Tech Microfibre 460mm Roller Cover, 15mm Nap for Water Based",
+"partNumber": "0682-1708",
+"brand": "Worx+"
+},
+{
+"description": "Uni-PRO 100mm Roller Frame with 400mm long (4\" X 16\")",
+"partNumber": "0682-3108",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Trade Heavy Duty 230mm Frame – Yellow Handle",
+"partNumber": "0682-3207",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Trade Heavy Duty 270mm Frame – Yellow Handle",
+"partNumber": "0682-3306",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Genius Adjustable 270-460mm Aluminium Yoke Frame",
+"partNumber": "0682-3405",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO H/D Twist Lock Extension Pole (25/29mm Diam) 1.2-2.4m",
+"partNumber": "0682-3504",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Aluminium Extension Pole H/D Lift Lock Mech 1.2-2.4m",
+"partNumber": "0682-3603",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Concrete & Paving Brush - 50mm",
+"partNumber": "0682-5102",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Concrete & Paving Brush - 75mm",
+"partNumber": "0682-5201",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Fresh Coat Synthetic Wall Brush - 38mm",
+"partNumber": "0682-5300",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Fresh Coat Synthetic Wall Brush - 50mm",
+"partNumber": "0682-5409",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO 4 Brush Set (25, 38, 50 & 75mm)",
+"partNumber": "0682-5508",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO 100mm Handy Roller Pot - 1L",
+"partNumber": "0682-7106",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Hooded Heavy Duty Plastic Tray - 270mm",
+"partNumber": "0682-7205",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Painters Bucket Complete (roller ramp, lid & wheels), 25L , for rollers up to 360mm",
+"partNumber": "0682-7304",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Heavy Duty Painters Bucket, 30L, for rollers up to 460mm",
+"partNumber": "0682-7403",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Uni-Mask 14-Day Blue Tape/Film Dispenser, 550mm x 25m",
+"partNumber": "0682-8103",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Uni-Mask 14-Day Blue Tape/Film Dispenser Refill, 550mm x 25m",
+"partNumber": "0682-8202",
+"brand": "Worx+"
+},
+{
+"description": "UNi-PRO Trade X-Treme Green 30-Day Masking Tape, 36mm x 50m, 3-Pack",
+"partNumber": "0682-8301",
+"brand": "Worx+"
+},
+{
+"description": "GK700/850 HEAD LOCK",
+"partNumber": "0720-1103",
+"brand": "Worx+"
+},
+{
+"description": "GK700/850 HEAD LOCK SCREW",
+"partNumber": "0720-1202",
+"brand": "Worx+"
+},
+{
+"description": "PG450 POLISHING PAD HOLDER DISC REPLACEMENT VELCRO",
+"partNumber": "0722-1101",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680 POLISHING PAD HOLDER DISC REPLACEMENT VELCRO",
+"partNumber": "0722-2801",
+"brand": "Worx+"
+},
+{
+"description": "HTC550/650 POLISHING PAD HOLDER DISC REPLACEMENT VELCRO",
+"partNumber": "0722-1408",
+"brand": "Worx+"
+},
+{
+"description": "PG820 POLISHING PAD HOLDER DISC REPLACEMENT VELCRO",
+"partNumber": "0722-2900",
+"brand": "Worx+"
+},
+{
+"description": "HTC800/900 POLISHING PAD HOLDER DISC REPLACEMENT VELCRO",
+"partNumber": "0722-1507",
+"brand": "Worx+"
+},
+{
+"description": "PG450 POLISHING PAD HOLDER DISC REPLACEMENT 180mm RUBBER DISC - 6mm",
+"partNumber": "0722-1200",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680 POLISHING PAD HOLDER DISC REPLACEMENT 230mm RUBBER DISC - 6mm",
+"partNumber": "0722-3006",
+"brand": "Worx+"
+},
+{
+"description": "HTC550/650 POLISHING PAD HOLDER DISC REPLACEMENT 230mm RUBBER DISC - 6mm",
+"partNumber": "0722-2108",
+"brand": "Worx+"
+},
+{
+"description": "PG820 POLISHING PAD HOLDER DISC REPLACEMENT 270mm RUBBER DISC - 6mm",
+"partNumber": "0722-2702",
+"brand": "Worx+"
+},
+{
+"description": "HTC800/900 POLISHING PAD HOLDER DISC REPLACEMENT 270mm RUBBER DISC - 6mm",
+"partNumber": "0722-2207",
+"brand": "Worx+"
+},
+{
+"description": "PG450 POLISHING PAD HOLDER DISC REPLACEMENT 180mm RUBBER/VELCRO PRE-LAMINATED",
+"partNumber": "0722-1309",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680 POLISHING PAD HOLDER DISC REPLACEMENT 230mm RUBBER/VELCRO PRE-LAMINATED",
+"partNumber": "0722-2504",
+"brand": "Worx+"
+},
+{
+"description": "HTC 550/650 POLISHING PAD HOLDER DISC REPLACEMENT 230mm RUBBER/VELCRO PRE-LAMINATED",
+"partNumber": "0722-5307",
+"brand": "Worx+"
+},
+{
+"description": "PG820 POLISHING PAD HOLDER DISC REPLACEMENT 270mm RUBBER/VELCRO PRE-LAMINATED",
+"partNumber": "0722-2603",
+"brand": "Worx+"
+},
+{
+"description": "HTC800/900 POLISHING PAD HOLDER DISC REPLACEMENT 270mm RUBBER/VELCRO PRE-LAMINATED",
+"partNumber": "0722-3105",
+"brand": "Worx+"
+},
+{
+"description": "GK700 PRE-LAMINATE",
+"partNumber": "0722-4300",
+"brand": "Worx+"
+},
+{
+"description": "GK850 PRE-LAMINATE",
+"partNumber": "0722-4508",
+"brand": "Worx+"
+},
+{
+"description": "RED Glue, 500ml",
+"partNumber": "0722-9107",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 CONTROL PANEL COVER",
+"partNumber": "0730-2107",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 ELECTRICAL BOX HEAVY DUTY SMALL VENT - STAINLESS STEEL",
+"partNumber": "0730-3708",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 ELECTRICAL BOX HEAVY DUTY LARGE VENT - STAINLESS STEEL, FILTER MATERIAL & SELF DRILLING SCREWS",
+"partNumber": "0730-3609",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 KICKER BAR GAS STRUT",
+"partNumber": "0730-4002",
+"brand": "Worx+"
+},
+{
+"description": "BALL STUD for KICKER BAR",
+"partNumber": "0730-4101",
+"brand": "Worx+"
+},
+{
+"description": "BALL CUP for KICKER BAR",
+"partNumber": "0730-4705",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 PLASTIC END CAP FOR 75X50 HANDLEBAR TUBE",
+"partNumber": "0730-4507",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 REPLACEMENT HANDLEBAR TUBE - STAINLESS STEEL",
+"partNumber": "0730-4200",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 HANDLEBAR GRIPS (PAIR)",
+"partNumber": "0730-4309",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 REPLACEMENT HANDLEBAR CLAMP",
+"partNumber": "0730-4408",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 HANDLEBAR ADJUSTER REINFORCEMENT",
+"partNumber": "0730-5108",
+"brand": "Worx+"
+},
+{
+"description": "HTC CHASSIS BUSH",
+"partNumber": "0730-6204",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX CHASSIS LUG BUSHING",
+"partNumber": "0730-6303",
+"brand": "Worx+"
+},
+{
+"description": "MAKITA 5\" CARBON BRUSH/PAIR",
+"partNumber": "0731-1307",
+"brand": "Worx+"
+},
+{
+"description": "ANGLE GRINDER VIBRATION SUPPRESSION BACKING FLANGE WITH 14mm BORE",
+"partNumber": "0731-0102",
+"brand": "Worx+"
+},
+{
+"description": "EDGE BANDIT for MAKITA 5\" (PC5010CJ) GRINDER. (Compatible with METABO WEV 15-125 Quick)",
+"partNumber": "0731-0607",
+"brand": "Worx+"
+},
+{
+"description": "MAKITA 7\" (SA7000C) GRINDER, EDGE BANDIT",
+"partNumber": "0731-0805",
+"brand": "Worx+"
+},
+{
+"description": "EDGE BANDIT for MAKITA 9\" (GA9081X1) and METABO 9\" GRINDER",
+"partNumber": "0731-1123",
+"brand": "Worx+"
+},
+{
+"description": "PG530 REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-1104",
+"brand": "Worx+"
+},
+{
+"description": "PG680 REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-1203",
+"brand": "Worx+"
+},
+{
+"description": "PG820 REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-1302",
+"brand": "Worx+"
+},
+{
+"description": "HTC650 HDX REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-2101",
+"brand": "Worx+"
+},
+{
+"description": "HTC800 HDX REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-2200",
+"brand": "Worx+"
+},
+{
+"description": "HTC DURATIQ 6 REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-2408",
+"brand": "Worx+"
+},
+{
+"description": "HTC DURATIQ 8 REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-2309",
+"brand": "Worx+"
+},
+{
+"description": "SB650 REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-3108",
+"brand": "Worx+"
+},
+{
+"description": "SB800 REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-3207",
+"brand": "Worx+"
+},
+{
+"description": "SCANMASKIN 700 REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0651-4105",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 DEMOLITION HEAD SYSTEM SILICONE RING",
+"partNumber": "0721-0105",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 DEMOLITION HEAD REPLACEMENT PIN WITH HEX HEAD",
+"partNumber": "0721-0907",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 HEAD LOCK",
+"partNumber": "0721-1003",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 HEAD LOCK SCREW",
+"partNumber": "0721-1102",
+"brand": "Worx+"
+},
+{
+"description": "DEMOLITION HEAD - HEX HEAD PIN SCREW",
+"partNumber": "0721-1201",
+"brand": "Worx+"
+},
+{
+"description": "SCANMASKIN WORLD SERIES REBUILDABLE DEMOLITION GRINDING HEAD",
+"partNumber": "0721-7500",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 SPRING STEEL HEAD REPLACEMENT HEAD BUDDY",
+"partNumber": "0721-5100",
+"brand": "Worx+"
+},
+{
+"description": "PG680 SPRING STEEL SPRING",
+"partNumber": "0721-5407",
+"brand": "Worx+"
+},
+{
+"description": "PG820 SPRING STEEL SPRING",
+"partNumber": "0721-5506",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 SPRING STEEL HEAD SPACER A - 6mm",
+"partNumber": "0721-5605",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 SPRING STEEL HEAD SYSTEM SILICONE RING",
+"partNumber": "0721-5803",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 SPRING STEEL HEAD RUBBER CUSHION RING",
+"partNumber": "0721-5902",
+"brand": "Worx+"
+},
+{
+"description": "KLINDEX HEAD LOCK SCREW",
+"partNumber": "0721-7203",
+"brand": "Worx+"
+},
+{
+"description": "KLINEX HEAD LOCK",
+"partNumber": "0721-7104",
+"brand": "Worx+"
+},
+{
+"description": "PG530 PLANETARY DRIVE SPROCKET",
+"partNumber": "0732-1801",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 PLANETARY DRIVE SPROCKET",
+"partNumber": "0732-1900",
+"brand": "Worx+"
+},
+{
+"description": "PG680 REPLACEMENT CHAINRING",
+"partNumber": "0732-2105",
+"brand": "Worx+"
+},
+{
+"description": "PG820 REPLACEMENT CHAINRING",
+"partNumber": "0732-2204",
+"brand": "Worx+"
+},
+{
+"description": "PG530 ALUMINIUM SHROUD COMPLETE WITH COVER VELCRO, TAIL PIPE AND CAMLOCK",
+"partNumber": "0733-1404",
+"brand": "Worx+"
+},
+{
+"description": "PG680 ALUMINIUM SHROUD COMPLETE WITH COVER VELCRO, TAIL PIPE AND CAMLOCK",
+"partNumber": "0733-1503",
+"brand": "Worx+"
+},
+{
+"description": "PG680 RC ALUMINIUM SHROUD COMPLETE WITH COVER VELCRO AND TAIL PIPE",
+"partNumber": "0733-1602",
+"brand": "Worx+"
+},
+{
+"description": "PG820 ALUMINIUM SHROUD COMPLETE WITH COVER VELCRO, TAIL PIPE AND CAMLOCK",
+"partNumber": "0733-1701",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 TAIL PIPE BRACKET",
+"partNumber": "0733-2104",
+"brand": "Worx+"
+},
+{
+"description": "PG680 RC TAIL PIPE BRACKET",
+"partNumber": "0733-2203",
+"brand": "Worx+"
+},
+{
+"description": "NON RC TAIL PIPE MALE CAMLOCK",
+"partNumber": "0733-2302",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 TAIL PIPE RUBBER SEAL",
+"partNumber": "0733-2401",
+"brand": "Worx+"
+},
+{
+"description": "RUBBER SEAL for PG680 RC TAIL PIPE",
+"partNumber": "0733-2500",
+"brand": "Worx+"
+},
+{
+"description": "COVER SEAL SPONGE PER METER",
+"partNumber": "0733-3101",
+"brand": "Worx+"
+},
+{
+"description": "PG530 COVER VELCRO - 50mm",
+"partNumber": "0733-3309",
+"brand": "Worx+"
+},
+{
+"description": "PG680 COVER VELCRO - 50mm",
+"partNumber": "0733-3408",
+"brand": "Worx+"
+},
+{
+"description": "PG820 COVER VELCRO - 50mm",
+"partNumber": "0733-3507",
+"brand": "Worx+"
+},
+{
+"description": "GK700 DRIVE BELT",
+"partNumber": "0734-0109",
+"brand": "Worx+"
+},
+{
+"description": "GK850 DRIVE BELT",
+"partNumber": "0734-0208",
+"brand": "Worx+"
+},
+{
+"description": "PG450 INNER DRIVE BELT",
+"partNumber": "0734-1205",
+"brand": "Worx+"
+},
+{
+"description": "PG450 UPPER BELT",
+"partNumber": "0734-1106",
+"brand": "Worx+"
+},
+{
+"description": "PG530 DRIVE BELT",
+"partNumber": "0734-1304",
+"brand": "Worx+"
+},
+{
+"description": "PG680 DRIVE BELT",
+"partNumber": "0734-1403",
+"brand": "Worx+"
+},
+{
+"description": "PG690 DRIVE BELT",
+"partNumber": "0734-1601",
+"brand": "Worx+"
+},
+{
+"description": "PG820 DRIVE BELT",
+"partNumber": "0734-1502",
+"brand": "Worx+"
+},
+{
+"description": "PG830 DRIVE BELT",
+"partNumber": "0734-1700",
+"brand": "Worx+"
+},
+{
+"description": "HTC 450 INNER DRIVE BELT",
+"partNumber": "0734-4107",
+"brand": "Worx+"
+},
+{
+"description": "HTC 420 VS UPPER BELT",
+"partNumber": "0734-4602",
+"brand": "Worx+"
+},
+{
+"description": "HTC 500 INNER DRIVE BELT",
+"partNumber": "0734-4206",
+"brand": "Worx+"
+},
+{
+"description": "HTC 500 TOP DRIVE BELT",
+"partNumber": "0734-4800",
+"brand": "Worx+"
+},
+{
+"description": "HTC 650 CLASSIC TOP BELT",
+"partNumber": "0734-4909",
+"brand": "Worx+"
+},
+{
+"description": "HTC 650HDX INNER DRIVE BELT",
+"partNumber": "0734-4404",
+"brand": "Worx+"
+},
+{
+"description": "HTC 650HDX TOP DRIVE BELT",
+"partNumber": "0734-5104",
+"brand": "Worx+"
+},
+{
+"description": "HTC 800HDX INNER DRIVE BELT",
+"partNumber": "0734-4503",
+"brand": "Worx+"
+},
+{
+"description": "HTC 800HDX TOP DRIVE BELT",
+"partNumber": "0734-5203",
+"brand": "Worx+"
+},
+{
+"description": "HTC 950HDX TOP DRIVE BELT",
+"partNumber": "0734-5302",
+"brand": "Worx+"
+},
+{
+"description": "HTC 650 CLASSIC INNER DRIVE BELT",
+"partNumber": "0734-4305",
+"brand": "Worx+"
+},
+{
+"description": "PG530 FLY PULLEY SHAFT",
+"partNumber": "0735-0207",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 FLY PULLEY SHAFT",
+"partNumber": "0735-0306",
+"brand": "Worx+"
+},
+{
+"description": "PG680 FLY PULLEY",
+"partNumber": "0735-0504",
+"brand": "Worx+"
+},
+{
+"description": "PG820 FLY PULLEY",
+"partNumber": "0735-0603",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX FLY PULLEY CRUSH SPACER",
+"partNumber": "0735-1303",
+"brand": "Worx+"
+},
+{
+"description": "PG530 CENTRE DRIVE PULLEY",
+"partNumber": "0735-0900",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 CENTRE DRIVE PULLEY",
+"partNumber": "0735-0801",
+"brand": "Worx+"
+},
+{
+"description": "HTC 500 CENTRE DRIVE PULLEY, INNER",
+"partNumber": "0735-3604",
+"brand": "Worx+"
+},
+{
+"description": "HTC 500 CENTRE DRIVE PULLEY, OUTER",
+"partNumber": "0735-2706",
+"brand": "Worx+"
+},
+{
+"description": "HTC650/800 CENTRE DRIVE PULLEY, INNER",
+"partNumber": "0735-3406",
+"brand": "Worx+"
+},
+{
+"description": "HTC800 CENTRE DRIVE PULLEY, OUTER",
+"partNumber": "0735-3505",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 IDLER ASSEMBLY",
+"partNumber": "0735-2300",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 IDLER PULLEY SHAFT",
+"partNumber": "0735-1006",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 IDLER PULLEY",
+"partNumber": "0735-1105",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 TENSIONER ASSEMBLY",
+"partNumber": "0735-2409",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BELT TENSIONER SHAFT",
+"partNumber": "0735-4106",
+"brand": "Worx+"
+},
+{
+"description": "PLANETARY SEAL RUBBER PER METER, 10m/Roll [07361005]",
+"partNumber": "0736-1005",
+"brand": "Worx+"
+},
+{
+"description": "PG530 PLANETARY SEAL RUBBER",
+"partNumber": "0736-1104",
+"brand": "Worx+"
+},
+{
+"description": "PG680 PLANETARY SEAL RUBBER",
+"partNumber": "0736-1203",
+"brand": "Worx+"
+},
+{
+"description": "PG820 PLANETARY SEAL RUBBER",
+"partNumber": "0736-1302",
+"brand": "Worx+"
+},
+{
+"description": "PLANETARY SEAL FOAM PER METER (12Mtr/Roll)",
+"partNumber": "0736-2002",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 PLANETARY SEAL FOAM",
+"partNumber": "0736-2101",
+"brand": "Worx+"
+},
+{
+"description": "PLANETARY SEAL FOAM 12Mtr ROLL",
+"partNumber": "0736-2200",
+"brand": "Worx+"
+},
+{
+"description": "PG530 TOP BEARING HOUSING",
+"partNumber": "0738-0105",
+"brand": "Worx+"
+},
+{
+"description": "CIRCLIP 17",
+"partNumber": "0738-1706",
+"brand": "Worx+"
+},
+{
+"description": "CIRCLIP 20",
+"partNumber": "0738-1003",
+"brand": "Worx+"
+},
+{
+"description": "CIRCLIP 30.16 x 1.27mm",
+"partNumber": "0738-2000",
+"brand": "Worx+"
+},
+{
+"description": "CIRCLIP 35, External",
+"partNumber": "0738-1409",
+"brand": "Worx+"
+},
+{
+"description": "CIRCLIP 40, External",
+"partNumber": "0738-1201",
+"brand": "Worx+"
+},
+{
+"description": "CIRCLIP 55, External",
+"partNumber": "0738-1508",
+"brand": "Worx+"
+},
+{
+"description": "CIRCLIP 60, External",
+"partNumber": "0738-1300",
+"brand": "Worx+"
+},
+{
+"description": "RC WHEEL SHAFT INNER BEARING",
+"partNumber": "0738-5605",
+"brand": "Worx+"
+},
+{
+"description": "RC WHEEL DRIVE BEARING",
+"partNumber": "0738-6008",
+"brand": "Worx+"
+},
+{
+"description": "PG530 IDLER PULLEY BEARING",
+"partNumber": "0738-3403",
+"brand": "Worx+"
+},
+{
+"description": "HTC800/650HDX WHEEL BEARING INNER",
+"partNumber": "0738-3304",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BIG BLOCK BEARING",
+"partNumber": "0738-5704",
+"brand": "Worx+"
+},
+{
+"description": "PG530 TOP, BOTTOM & CENTRE BEARING - STRAIGHT",
+"partNumber": "0738-4400",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX FLY PULLEY HUB BOT BEARING",
+"partNumber": "0738-3502",
+"brand": "Worx+"
+},
+{
+"description": "PG690/830 FLY PULLEY TOP BEARING",
+"partNumber": "0738-6107",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX FLY PULLEY HUB TOP BEARING",
+"partNumber": "0738-4509",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 IDLER PULLEY BEARING",
+"partNumber": "0738-4707",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 11kW WEG MOTOR TOP BEARING",
+"partNumber": "0738-4608",
+"brand": "Worx+"
+},
+{
+"description": "HTC650HDX MOTOR TOP BEARING",
+"partNumber": "0738-4806",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BIG BLOCK BEARING",
+"partNumber": "0738-5803",
+"brand": "Worx+"
+},
+{
+"description": "HTC650HDX MOTOR BOTTOM BEARING",
+"partNumber": "0738-5100",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 FLY PULLEY TOP BEARING",
+"partNumber": "0738-5308",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 11kW WEG MOTOR BOTTOM BEARING",
+"partNumber": "0738-5209",
+"brand": "Worx+"
+},
+{
+"description": "HTC800/950HDX 15kW MOTOR BEARING",
+"partNumber": "0738-5407",
+"brand": "Worx+"
+},
+{
+"description": "REPLACEMENT WHEEL BEARINGS",
+"partNumber": "0738-4202",
+"brand": "Worx+"
+},
+{
+"description": "PG690/PG830 FLY PULLEY BOTTOM BEARING",
+"partNumber": "0738-5902",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 CENTRE BEARING",
+"partNumber": "0738-3601",
+"brand": "Worx+"
+},
+{
+"description": "PG530 MAIN BEARING",
+"partNumber": "0738-3700",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BOTTOM BEARING",
+"partNumber": "0738-4905",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX CENTRE DRIVE PULLEY BEARING",
+"partNumber": "0738-3809",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 MAIN BEARING",
+"partNumber": "0738-3908",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX MAIN BEARING",
+"partNumber": "0738-4004",
+"brand": "Worx+"
+},
+{
+"description": "PG690/PG830 MAIN BEARING",
+"partNumber": "0738-6305",
+"brand": "Worx+"
+},
+{
+"description": "PG450 CENTRE DRIVE PULLEY BEARING",
+"partNumber": "0738-6404",
+"brand": "Worx+"
+},
+{
+"description": "PG450 TOP OIL SEAL",
+"partNumber": "0738-7708",
+"brand": "Worx+"
+},
+{
+"description": "PG530/HTC OIL SEAL",
+"partNumber": "0738-7104",
+"brand": "Worx+"
+},
+{
+"description": "GEARBOX OIL SEAL - BOTTOM - MOTORVARIO GEARBOX",
+"partNumber": "0738-7203",
+"brand": "Worx+"
+},
+{
+"description": "680/820 BOTTOM OIL SEAL",
+"partNumber": "0738-7401",
+"brand": "Worx+"
+},
+{
+"description": "680/820 BOTTOM OIL SEAL",
+"partNumber": "0738-8903",
+"brand": "Worx+"
+},
+{
+"description": "680/820 GEARBOX BOTTOM OIL SEAL",
+"partNumber": "0738-9108",
+"brand": "Worx+"
+},
+{
+"description": "680/820 GEARBOX OIL SEAL",
+"partNumber": "0738-8804",
+"brand": "Worx+"
+},
+{
+"description": "680/820 BOTTOM OIL SEAL",
+"partNumber": "0738-7302",
+"brand": "Worx+"
+},
+{
+"description": "PG450/HTC420 FLY PULLEY OIL SEAL",
+"partNumber": "0738-9306",
+"brand": "Worx+"
+},
+{
+"description": "11Kw WEG MOTOR BOTTOM OIL SEAL",
+"partNumber": "0738-8705",
+"brand": "Worx+"
+},
+{
+"description": "680/820 GEARBOX TOP OIL SEAL",
+"partNumber": "0738-9009",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX FLY PULLEY HUB OIL SEAL",
+"partNumber": "0738-8408",
+"brand": "Worx+"
+},
+{
+"description": "PG690/830 BOTTOM BEARING OIL SEAL",
+"partNumber": "0738-9504",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 OIL SEAL",
+"partNumber": "0738-8606",
+"brand": "Worx+"
+},
+{
+"description": "PG450 TOP V-SEAL",
+"partNumber": "0738-7807",
+"brand": "Worx+"
+},
+{
+"description": "PG530 V-SEAL",
+"partNumber": "0738-7906",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 V-SEAL",
+"partNumber": "0738-8002",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 MAIN BEARING V-SEAL",
+"partNumber": "0738-8507",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX PLANETARY SHAFT OIL SEAL",
+"partNumber": "0738-7500",
+"brand": "Worx+"
+},
+{
+"description": "HTC 500 PLANETARY SHAFT GAMMA SEAL",
+"partNumber": "0738-8309",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX PLANETARY SHAFT GAMMA SEAL",
+"partNumber": "0738-8200",
+"brand": "Worx+"
+},
+{
+"description": "HTC HDX BOTTOM BEARING METAL SEAL",
+"partNumber": "0738-7609",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC WHEEL KIT (Excluding 0739-1804 Shafts)",
+"partNumber": "0739-1606",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC WHEEL MOTOR MOUNT",
+"partNumber": "0739-1408",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC WHEEL HUB",
+"partNumber": "0739-1507",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC WHEEL MOTOR SHAFT with BEARING and CIRCLIP",
+"partNumber": "0739-1804",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BIG BLOCK METAL SHROUD",
+"partNumber": "0739-4300",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BIG BLOCK UPGRADE KIT",
+"partNumber": "0739-2108",
+"brand": "Worx+"
+},
+{
+"description": "PG680 BIG BLOCK UPGRADE KIT",
+"partNumber": "0739-2207",
+"brand": "Worx+"
+},
+{
+"description": "PG820 BIG BLOCK UPGRADE KIT",
+"partNumber": "0739-2306",
+"brand": "Worx+"
+},
+{
+"description": "7.5kW TOP MOTOR MOUNT FLANGE",
+"partNumber": "0739-2504",
+"brand": "Worx+"
+},
+{
+"description": "15kW TOP MOTOR MOUNT FLANGE",
+"partNumber": "0739-2603",
+"brand": "Worx+"
+},
+{
+"description": "7.5kW BOTTOM MOTOR MOUNT FLANGE",
+"partNumber": "0739-2702",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 BIG BLOCK MOTOR POST",
+"partNumber": "0739-2900",
+"brand": "Worx+"
+},
+{
+"description": "PG680 Big Block Dust Shroud COVER",
+"partNumber": "0739-4805",
+"brand": "Worx+"
+},
+{
+"description": "PG820 Big Block Dust Shroud COVER",
+"partNumber": "0739-4904",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BIG BLOCK FLANGED BEARING HOLDER",
+"partNumber": "0739-3105",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BIG BLOCK FLANGED BEARING HOLDER",
+"partNumber": "0739-3204",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BIG BLOCK DRIVE SHAFT ADAPTER",
+"partNumber": "0739-3303",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BIG BLOCK DRIVE SHAFT ADAPTER",
+"partNumber": "0739-3402",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BIG BLOCK BEARING HOUSING",
+"partNumber": "0739-3501",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BIG BLOCK BEARING HOUSING",
+"partNumber": "0739-3600",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 BIG BLOCK SHAFT COUPLER ELEMENT",
+"partNumber": "0739-4003",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 BIG BLOCK SHAFT COUPLER",
+"partNumber": "0739-4102",
+"brand": "Worx+"
+},
+{
+"description": "PG680 BIG BLOCK SPROCKET",
+"partNumber": "0739-4201",
+"brand": "Worx+"
+},
+{
+"description": "ANALOGUE HOUR COUNTER - ROUND",
+"partNumber": "0740-1008",
+"brand": "Worx+"
+},
+{
+"description": "ELECTRICAL CABINET DOOR KEY - BARB STYLE",
+"partNumber": "0740-1206",
+"brand": "Worx+"
+},
+{
+"description": "FAULT LIGHT - RED - 24V",
+"partNumber": "0740-2104",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 GREEN DUTY LIGHT",
+"partNumber": "0740-2203",
+"brand": "Worx+"
+},
+{
+"description": "AW55-T REPLACEMENT 5.5kW SIDE CHANNEL BLOWER",
+"partNumber": "0740-4108",
+"brand": "Worx+"
+},
+{
+"description": "TERMINAL - PHASE - 10MM - DOUBLE LEVEL",
+"partNumber": "0740-6607",
+"brand": "Worx+"
+},
+{
+"description": "2-WAY LEVER WIRE CONNECTOR",
+"partNumber": "0740-6706",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL SCREEN REPLACEMENT",
+"partNumber": "0740-7406",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL BATTERY CHARGER",
+"partNumber": "0740-7703",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CABINET BATTERY",
+"partNumber": "0740-8007",
+"brand": "Worx+"
+},
+{
+"description": "PG450 START CAPACITOR",
+"partNumber": "0740-8106",
+"brand": "Worx+"
+},
+{
+"description": "PG450 RUN CAPACITOR",
+"partNumber": "0740-8205",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC POWER SUPPLY",
+"partNumber": "0740-8403",
+"brand": "Worx+"
+},
+{
+"description": "SWITCH BODY",
+"partNumber": "0741-0505",
+"brand": "Worx+"
+},
+{
+"description": "SWITCH CONTACTOR BLOCK - NORMALLY OPEN",
+"partNumber": "0741-0703",
+"brand": "Worx+"
+},
+{
+"description": "SWITCH CONTACTOR BLOCK - NORMALLY CLOSED",
+"partNumber": "0741-0604",
+"brand": "Worx+"
+},
+{
+"description": "SWITCH BODY WITH NORMALLY OPEN CONTACT",
+"partNumber": "0741-0109",
+"brand": "Worx+"
+},
+{
+"description": "THREE POSITION MICRO SWITCH - SPRING RETURN",
+"partNumber": "0741-1007",
+"brand": "Worx+"
+},
+{
+"description": "THREE POSITION MICRO SWITCH - STAY PUT",
+"partNumber": "0741-1106",
+"brand": "Worx+"
+},
+{
+"description": "TWO POSITION MICRO SWITCH",
+"partNumber": "0741-1205",
+"brand": "Worx+"
+},
+{
+"description": "PUSH BUTTON HEAD, SPRING RETURN - BLACK",
+"partNumber": "0741-0802",
+"brand": "Worx+"
+},
+{
+"description": "PUSH BUTTON HEAD, SPRING RETURN - GREEN",
+"partNumber": "0741-0901",
+"brand": "Worx+"
+},
+{
+"description": "EMERGENCY STOP BUTTON",
+"partNumber": "0741-1304",
+"brand": "Worx+"
+},
+{
+"description": "PG530/680/820 SPEED CONTROL DIAL",
+"partNumber": "0741-1403",
+"brand": "Worx+"
+},
+{
+"description": "HUSQY SWITCH BODY",
+"partNumber": "0741-1502",
+"brand": "Worx+"
+},
+{
+"description": "HUSQY SWITCH CONTACTOR BLOCK - NORMALLY OPEN",
+"partNumber": "0741-1700",
+"brand": "Worx+"
+},
+{
+"description": "HUSQY SWITCH CONTACTOR BLOCK - NORMALLY CLOSED",
+"partNumber": "0741-1601",
+"brand": "Worx+"
+},
+{
+"description": "POWER SWITCH - HUSQVARNA",
+"partNumber": "0741-3100",
+"brand": "Worx+"
+},
+{
+"description": "START/STOP SWITCH - HUSQVARNA",
+"partNumber": "0741-3001",
+"brand": "Worx+"
+},
+{
+"description": "EMERGENCY STOP BUTTON - HUSQVARNA",
+"partNumber": "0741-1809",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL ESTOP CONTACT BLOCK",
+"partNumber": "0741-2509",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL START/STOP SWITCH CONTACT BLOCK",
+"partNumber": "0741-2905",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL START/STOP SWITCH HEAD",
+"partNumber": "0741-2806",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL EMERGENCY STOP HEAD",
+"partNumber": "0741-2707",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL SPEED/DIRECTION DIAL",
+"partNumber": "0741-2301",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL DRIVE SPEED DIAL",
+"partNumber": "0741-2004",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 RC CONTROL JOYSTICK",
+"partNumber": "0741-2202",
+"brand": "Worx+"
+},
+{
+"description": "PG690/830 SWITCH BODY",
+"partNumber": "0741-6101",
+"brand": "Worx+"
+},
+{
+"description": "PG690/830 SWITCH CONTACTOR BLOCK - NORMALLY OPEN",
+"partNumber": "0741-6200",
+"brand": "Worx+"
+},
+{
+"description": "PG690/830 SWITCH CONTACTOR BLOCK - NORMALLY CLOSED",
+"partNumber": "0741-6309",
+"brand": "Worx+"
+},
+{
+"description": "PG690/830 TWO POSITION MICRO SWITCH - STAY PUT",
+"partNumber": "0741-6408",
+"brand": "Worx+"
+},
+{
+"description": "PG690/830 THREE POSITION MICRO SWITCH - STAY PUT",
+"partNumber": "0741-6507",
+"brand": "Worx+"
+},
+{
+"description": "DC5500 STOP/RUN ROTARY SWITCH",
+"partNumber": "0741-1908",
+"brand": "Worx+"
+},
+{
+"description": "PG530 GEARBOX MOTOR PLUG",
+"partNumber": "0742-1501",
+"brand": "Worx+"
+},
+{
+"description": "16A MALE 6 PIN PLUG INSERT",
+"partNumber": "0742-1402",
+"brand": "Worx+"
+},
+{
+"description": "16A FEMALE 6 PIN PLUG INSERT",
+"partNumber": "0742-1303",
+"brand": "Worx+"
+},
+{
+"description": "6 PIN PLUG SURFACE MOUNT HOUSING WITH CLIP",
+"partNumber": "0742-1105",
+"brand": "Worx+"
+},
+{
+"description": "6 PIN ALUMINIUM PLUG HOOD",
+"partNumber": "0742-1204",
+"brand": "Worx+"
+},
+{
+"description": "32A MALE 6 PIN PLUG INSERT",
+"partNumber": "0742-0801",
+"brand": "Worx+"
+},
+{
+"description": "32A FEMALE 6 PIN PLUG INSERT",
+"partNumber": "0742-0702",
+"brand": "Worx+"
+},
+{
+"description": "80A MALE INSERT FOR ALUMINUM PLUG FITTING",
+"partNumber": "0742-1006",
+"brand": "Worx+"
+},
+{
+"description": "80A FEMALE INSERT FOR ALUMINUM PLUG FITTING",
+"partNumber": "0742-0900",
+"brand": "Worx+"
+},
+{
+"description": "LARGE SURFACE MOUNT HOUSING WITH SIDE CLIP",
+"partNumber": "0742-0306",
+"brand": "Worx+"
+},
+{
+"description": "LARGE SURFACE MOUNT HOUSING WITH SIDE CLIP & COVER",
+"partNumber": "0742-0405",
+"brand": "Worx+"
+},
+{
+"description": "LARGE ALUMINUM HOOD FOR 32AMP OR 80AMP PLUG INSERT",
+"partNumber": "0742-0603",
+"brand": "Worx+"
+},
+{
+"description": "SOCKET for RC WHEEL BOARD",
+"partNumber": "0743-8103",
+"brand": "Worx+"
+},
+{
+"description": "PLUG for RC WHEEL LOOM",
+"partNumber": "0743-8202",
+"brand": "Worx+"
+},
+{
+"description": "TERMINAL FOR RC WHEEL BOARD - SMALL",
+"partNumber": "0743-8301",
+"brand": "Worx+"
+},
+{
+"description": "TERMINAL FOR RC WHEEL BOARD - LARGE",
+"partNumber": "0743-8400",
+"brand": "Worx+"
+},
+{
+"description": "STEEL GLAND FOR 6 PIN ALUMINIUM PLUG HOOD - M20",
+"partNumber": "0744-0304",
+"brand": "Worx+"
+},
+{
+"description": "STEEL GLAND FOR LARGE ALUMINIUM PLUG HOOD - M32",
+"partNumber": "0744-0700",
+"brand": "Worx+"
+},
+{
+"description": "55T CONTROL BOX - PLASTIC",
+"partNumber": "0745-0303",
+"brand": "Worx+"
+},
+{
+"description": "PG530 CONTROL BOX Complete with Box, Face Plate, Earthing Plate and gland.",
+"partNumber": "0745-3106",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 PUSH CONTROL BOX Complete with Box, Face Plate, Earthing Plate and gland.",
+"partNumber": "0745-3205",
+"brand": "Worx+"
+},
+{
+"description": "EARTHING PLATE for 55T CONTROL BOX",
+"partNumber": "0745-7203",
+"brand": "Worx+"
+},
+{
+"description": "EARTHING PLATE for PG680/820 CONTROL BOX",
+"partNumber": "0745-7302",
+"brand": "Worx+"
+},
+{
+"description": "PG530 CONTROL PANEL WIRING LOOM",
+"partNumber": "0746-1408",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 CONTROL PANEL WIRING LOOM",
+"partNumber": "0746-1200",
+"brand": "Worx+"
+},
+{
+"description": "DC5500/55T CONTACTOR - 18A",
+"partNumber": "0747-0400",
+"brand": "Worx+"
+},
+{
+"description": "PG690/830 MAIN CONTACTOR",
+"partNumber": "0747-1506",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 CONTACTOR - 32A 415V/50HZ",
+"partNumber": "0747-0509",
+"brand": "Worx+"
+},
+{
+"description": "5500 Thermal Overload",
+"partNumber": "0747-0806",
+"brand": "Worx+"
+},
+{
+"description": "2 POLE CIRCUIT BREAKER",
+"partNumber": "0747-1001",
+"brand": "Worx+"
+},
+{
+"description": "S26/S36 CAPACITOR",
+"partNumber": "0747-2107",
+"brand": "Worx+"
+},
+{
+"description": "12V LED FLOOD LIGHT CURLY EXTENSION CABLE",
+"partNumber": "0749-0200",
+"brand": "Worx+"
+},
+{
+"description": "12V MACHINE FLOOD LIGHT",
+"partNumber": "0749-0309",
+"brand": "Worx+"
+},
+{
+"description": "12V TRANSFORMER TO POWER MACHINE FLOOD LIGHTS",
+"partNumber": "0749-0408",
+"brand": "Worx+"
+},
+{
+"description": "12V TWIN ACCESSORY SOCKETS",
+"partNumber": "0749-0507",
+"brand": "Worx+"
+},
+{
+"description": "DC3300 FILTER SHAKER RUBBER BOOT",
+"partNumber": "0750-0701",
+"brand": "Worx+"
+},
+{
+"description": "DC6000 COMPRESSOR REPLACEMENT CYLINDER",
+"partNumber": "0750-0503",
+"brand": "Worx+"
+},
+{
+"description": "DC6000 COMPRESSOR REPLACEMENT CYLINDER SEAL",
+"partNumber": "0750-0602",
+"brand": "Worx+"
+},
+{
+"description": "HEIGHT ADJUSTMENT KNOB for 1250PB BAGGER & SCS SEPARATOR",
+"partNumber": "0750-1104",
+"brand": "Worx+"
+},
+{
+"description": "PULSBAC 1000 SERIES REPLACEMENT VALVE ROD",
+"partNumber": "0750-1401",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 SWITCH PANEL",
+"partNumber": "0751-3701",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 MK2, SWITCH PANEL WITHOUT ATS (Automatic Tool Start)",
+"partNumber": "0751-3800",
+"brand": "Worx+"
+},
+{
+"description": "DC5500 FILTER SOCK RACK RUBBER SEAL PER METRE",
+"partNumber": "0750-0107",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 MK2, SWITCH PANEL WITH ATS (Automatic Tool Start)",
+"partNumber": "0751-4203",
+"brand": "Worx+"
+},
+{
+"description": "DC5500 MICRO FILTER DOOR RUBBER SEAL PER METRE",
+"partNumber": "0750-0206",
+"brand": "Worx+"
+},
+{
+"description": "55T/DC3300/5500 DUST FLAP SPRING",
+"partNumber": "0750-1005",
+"brand": "Worx+"
+},
+{
+"description": "STAINLESS BLOWER ADAPTOR NIPPLE - 75mm",
+"partNumber": "0750-1708",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 MK2, 3 POSITION SWITCH",
+"partNumber": "0751-4005",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 MK2, 220V OUTLET",
+"partNumber": "0751-3909",
+"brand": "Worx+"
+},
+{
+"description": "55T PRIMARY FILTER SOCK RACK - SNAPLOCK",
+"partNumber": "0750-4303",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 HEAD CONNECTING SIDE MOUNT",
+"partNumber": "0751-3305",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 HEAD CONNECTING THUMB KNOB",
+"partNumber": "0751-3206",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 MK2 HEAD CONNECTING SIDE MOUNT",
+"partNumber": "0751-4906",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 MK2 HEAD CONNECTING THUMB KNOB",
+"partNumber": "0751-5002",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 SOLENOID MOUNTING PLATE",
+"partNumber": "0751-4302",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 REPLACEMENT INLET",
+"partNumber": "0751-2506",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC GAS STRUT 550N",
+"partNumber": "0751-1509",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC GAS STRUT EYELET",
+"partNumber": "0751-1608",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC GAS STRUT BALL STUD",
+"partNumber": "0751-1707",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC OUTER VALVE SEAL",
+"partNumber": "0751-1202",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 500/1000/2000 SERIES SOLENOID - 240V",
+"partNumber": "0751-2001",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC SOLENOID VALVE PIN & NUT",
+"partNumber": "0751-2100",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC SOLENOID and HOUSING",
+"partNumber": "0751-4104",
+"brand": "Worx+"
+},
+{
+"description": "POWER SWITCH for PULSE BAC 1250 MK2-PRO Only",
+"partNumber": "0751-4401",
+"brand": "Worx+"
+},
+{
+"description": "POWER SWITCH for PULSE BAC 1250 MK1 Only",
+"partNumber": "0751-1400",
+"brand": "Worx+"
+},
+{
+"description": "CIRCUIT BOARD for PULSE BAC 1250 MK1 Only",
+"partNumber": "0751-1806",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC PRO SERIES REPLACEMENT CIRCUIT BOARD",
+"partNumber": "0751-3503",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 1250 REPLACEMENT VACUUM MOTOR BRUSH",
+"partNumber": "0751-1905",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC THREADED FILTER HOLDER, EACH",
+"partNumber": "0751-3619",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 1250 RUBBER LATCH",
+"partNumber": "0751-2704",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 1250 SOLENOID MOUNTING PLATE",
+"partNumber": "0751-6405",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 1250 MOTOR MOUNTING PLATE",
+"partNumber": "0751-6504",
+"brand": "Worx+"
+},
+{
+"description": "MICRO FILTER for PULSE BAC 550, SINGLE FILTER",
+"partNumber": "0752-1607",
+"brand": "Worx+"
+},
+{
+"description": "MICRO FILTER for PULSE BAC 1250 12\", SINGLE FILTER",
+"partNumber": "0752-1706",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC REPLACEMENT MICRO FILTER - CLASS H13 - PACK OF 3",
+"partNumber": "0752-1201",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC REPLACEMENT MICRO FILTER - 15\" LONG FILTER - SINGLE FILTER",
+"partNumber": "0752-1409",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 1000 SERIES FILTER SEAL",
+"partNumber": "0752-1508",
+"brand": "Worx+"
+},
+{
+"description": "DC3300 SECONDARY MICROFILTER",
+"partNumber": "0752-2109",
+"brand": "Worx+"
+},
+{
+"description": "55T SECONDARY MICROFILTER - HEPA",
+"partNumber": "0752-2901",
+"brand": "Worx+"
+},
+{
+"description": "55T/DC5500 SECONDARY MICROFILTER - STD",
+"partNumber": "0752-2208",
+"brand": "Worx+"
+},
+{
+"description": "DC6000 CONICAL MICROFILTER",
+"partNumber": "0752-2307",
+"brand": "Worx+"
+},
+{
+"description": "7500 SECONDARY MICRO FILTER",
+"partNumber": "0752-2406",
+"brand": "Worx+"
+},
+{
+"description": "HTC 80 iD / IAD Secondary filter",
+"partNumber": "0752-2802",
+"brand": "Worx+"
+},
+{
+"description": "S26/S36 SECONDARY MICROFILTER",
+"partNumber": "0752-2604",
+"brand": "Worx+"
+},
+{
+"description": "DC3300 PRIMARY FILTER SOCK WITH PROTECTIVE END DISC - TEFLON COATED",
+"partNumber": "0752-3205",
+"brand": "Worx+"
+},
+{
+"description": "55T/DC5500 PRIMARY FILTER SOCK WITH SEALED STITCHING - HOSE CLAMP ATTACHMENT",
+"partNumber": "0752-3106",
+"brand": "Worx+"
+},
+{
+"description": "55T/5500 PRIMARY FILTER SOCK WITH SEALED STITCHING - SNAP LOCK ATTACHMENT",
+"partNumber": "0752-3403",
+"brand": "Worx+"
+},
+{
+"description": "FILTER SOCK for 55T COMPACT",
+"partNumber": "0752-3700",
+"brand": "Worx+"
+},
+{
+"description": "PULLMAN T7500 T8600 FILTER SOCK",
+"partNumber": "0752-3502",
+"brand": "Worx+"
+},
+{
+"description": "HTC 80 FILTER SOCK",
+"partNumber": "0752-3304",
+"brand": "Worx+"
+},
+{
+"description": "S26 PRIMARY MICROFILTER",
+"partNumber": "0752-2505",
+"brand": "Worx+"
+},
+{
+"description": "S36 PRIMARY MICROFILTER",
+"partNumber": "0752-2703",
+"brand": "Worx+"
+},
+{
+"description": "HTC D60 PRIMARY FILTER",
+"partNumber": "0752-4301",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX ATMOS 1000 PRE-FILTER 10/PK",
+"partNumber": "0752-5100",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX ATMOS 1000 HEPA FILTER",
+"partNumber": "0752-5209",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX ATMOS 2000 PRE-FILTER 10/PK",
+"partNumber": "0752-5308",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX ATMOS 2000 HEPA FILTER",
+"partNumber": "0752-5407",
+"brand": "Worx+"
+},
+{
+"description": "3\" ALUMINUM CAMLOCK - MALE",
+"partNumber": "0753-2702",
+"brand": "Worx+"
+},
+{
+"description": "3\" ALUMINUM CAMLOCK - FEMALE",
+"partNumber": "0753-2603",
+"brand": "Worx+"
+},
+{
+"description": "3\" DUST PLUG (MALE) CAMLOCK with LANYARD",
+"partNumber": "0753-2306",
+"brand": "Worx+"
+},
+{
+"description": "ALUMINUM CAMLOCK REDUCER - 75mm MALE TO 50mm BARB",
+"partNumber": "0753-2900",
+"brand": "Worx+"
+},
+{
+"description": "ALUMINUM CAMLOCK REDUCER - 75mm FEMALE TO 50mm BARB",
+"partNumber": "0753-2801",
+"brand": "Worx+"
+},
+{
+"description": "SEPARATOR GAS STRUT",
+"partNumber": "0750-4402",
+"brand": "Worx+"
+},
+{
+"description": "DC3300/5500 CONE PRESS ON RUBBER SEAL",
+"partNumber": "0753-0708",
+"brand": "Worx+"
+},
+{
+"description": "3\" CAMLOCK RUBBER SEAL",
+"partNumber": "0753-2504",
+"brand": "Worx+"
+},
+{
+"description": "VACUUM INLET RUBBER ELBOW",
+"partNumber": "0753-1309",
+"brand": "Worx+"
+},
+{
+"description": "55T STAINLESS PIPE for BLOWER INLET",
+"partNumber": "0753-4607",
+"brand": "Worx+"
+},
+{
+"description": "FLEXIBLE VACUUM HOSE 75mm, 55T SILENCER to BLOWER, 0.5m",
+"partNumber": "0753-8100",
+"brand": "Worx+"
+},
+{
+"description": "DC6000 INLINE STOP VALVE",
+"partNumber": "0753-4409",
+"brand": "Worx+"
+},
+{
+"description": "DC6000 INLINE AIR FILTER",
+"partNumber": "0753-4508",
+"brand": "Worx+"
+},
+{
+"description": "3\" HOSE CLAMP",
+"partNumber": "0750-2200",
+"brand": "Worx+"
+},
+{
+"description": "BLOWER TRAY",
+"partNumber": "0754-1100",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX 55T COMPACT UPGRADE KIT",
+"partNumber": "0754-1209",
+"brand": "Worx+"
+},
+{
+"description": "DC5500 LARGE LATCH - ZINC PLATED",
+"partNumber": "0750-3801",
+"brand": "Worx+"
+},
+{
+"description": "DC5500 LARGE LATCH CATCH - ZINC PLATED",
+"partNumber": "0750-3900",
+"brand": "Worx+"
+},
+{
+"description": "DC5500 SMALL LATCH - ZINC PLATE",
+"partNumber": "0750-4006",
+"brand": "Worx+"
+},
+{
+"description": "DC5500 SMALL LATCH CATCH",
+"partNumber": "0750-4105",
+"brand": "Worx+"
+},
+{
+"description": "WORX+ SILENCER",
+"partNumber": "0750-8400",
+"brand": "Worx+"
+},
+{
+"description": "WORX+ SILENCER ELBOW INCLUDING EXENSION PIPE",
+"partNumber": "0750-8103",
+"brand": "Worx+"
+},
+{
+"description": "WORX+ SILENCER FOAM INSERT",
+"partNumber": "0750-8202",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 REPLACEMENT VACUUM MOTOR",
+"partNumber": "0760-1101",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 1250 REPLACEMENT VACUUM MOTOR",
+"partNumber": "0760-1309",
+"brand": "Worx+"
+},
+{
+"description": "DC3300 REPLACEMENT VACUUM MOTOR - 1200W",
+"partNumber": "0760-2108",
+"brand": "Worx+"
+},
+{
+"description": "PG530 REPLACEMENT 0.75kW ALUMINIUM MOTOR",
+"partNumber": "0760-3105",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 REPLACEMENT 1.5kW PLANETARY HEAD MOTOR",
+"partNumber": "0760-4102",
+"brand": "Worx+"
+},
+{
+"description": "PG450 REPLACEMENT MOTOR",
+"partNumber": "0760-3402",
+"brand": "Worx+"
+},
+{
+"description": "HTC420 REPLACEMENT MOTOR",
+"partNumber": "0760-3501",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820/HTC REPLACEMENT 11kW MOTOR",
+"partNumber": "0760-4201",
+"brand": "Worx+"
+},
+{
+"description": "15kW ALUMINIUM MOTOR",
+"partNumber": "0760-4409",
+"brand": "Worx+"
+},
+{
+"description": "RC WHEEL DRIVE GEARBOX GEARBOX SHIM SET",
+"partNumber": "0760-5109",
+"brand": "Worx+"
+},
+{
+"description": "PG530 REPLACEMENT PLANETARY DRIVE GEARBOX",
+"partNumber": "0761-4101",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 REPLACEMENT PLANETARY HEAD GEARBOX",
+"partNumber": "0761-4200",
+"brand": "Worx+"
+},
+{
+"description": "DC5500 WEATHERPROOF FREQUENCY INVERTER",
+"partNumber": "0762-1109",
+"brand": "Worx+"
+},
+{
+"description": "NXL & NXS FREQUENCY INVERTER COOLING FAN ASSEMBLY - LARGE",
+"partNumber": "0762-4100",
+"brand": "Worx+"
+},
+{
+"description": "IP66 GRAPHICAL KEYPAD FOR 55T INVERTER",
+"partNumber": "0762-4209",
+"brand": "Worx+"
+},
+{
+"description": "55T INVERTER SWITCH PLATE",
+"partNumber": "0762-4308",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BOTTOM BEARING HOUSING",
+"partNumber": "0770-2402",
+"brand": "Worx+"
+},
+{
+"description": "PG530 GEARBOX FLANGE BRACKET",
+"partNumber": "0770-2501",
+"brand": "Worx+"
+},
+{
+"description": "PG530 GEARBOX MOUNTING BRACKET",
+"partNumber": "0770-2600",
+"brand": "Worx+"
+},
+{
+"description": "PG680 GEARBOX MOUNTING BRACKET",
+"partNumber": "0770-2709",
+"brand": "Worx+"
+},
+{
+"description": "PG680 GEARBOX MOUNTING BRACKET",
+"partNumber": "0770-2808",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BOTTOM BEARING COVER PLATE B (INNER)",
+"partNumber": "0770-3003",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BOTTOM BEARING HOUSING",
+"partNumber": "0770-3102",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BOTTOM BEARING RETAINER PLATE",
+"partNumber": "0770-3201",
+"brand": "Worx+"
+},
+{
+"description": "PG280/450 CHASSIS PIN",
+"partNumber": "0771-8106",
+"brand": "Worx+"
+},
+{
+"description": "PG530 MOTOR MOUNT PLATE",
+"partNumber": "0771-5105",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BOTTOM OIL SEAL HOUSING",
+"partNumber": "0771-5204",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BOTTOM OIL SEAL COVER PLATE",
+"partNumber": "0771-5303",
+"brand": "Worx+"
+},
+{
+"description": "PG530 COVER WASHER SPACER - 5mm",
+"partNumber": "0771-5402",
+"brand": "Worx+"
+},
+{
+"description": "PG530 BOTTOM MAIN BEARING RETAINING PLATE",
+"partNumber": "0771-5501",
+"brand": "Worx+"
+},
+{
+"description": "PG530 TOP MAIN BEARING RETAINING PLATE",
+"partNumber": "0771-5600",
+"brand": "Worx+"
+},
+{
+"description": "PG530 CENTRE BEARING HOUSING",
+"partNumber": "0771-5709",
+"brand": "Worx+"
+},
+{
+"description": "PG680 MOTOR MOUNT PLATE",
+"partNumber": "0771-4108",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 MAIN BEARING RETAINER PLATE EXTERNAL",
+"partNumber": "0771-0605",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 MAIN BEARING RETAINER PLATE INTERNAL",
+"partNumber": "0771-0902",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 MOTOR TERMINAL CUT OUT COVER",
+"partNumber": "0771-1909",
+"brand": "Worx+"
+},
+{
+"description": "PG820/680 INSPECTION COVER GASKET",
+"partNumber": "0771-2203",
+"brand": "Worx+"
+},
+{
+"description": "PG820/680 BELT TENSIONER COVER GASKET",
+"partNumber": "0771-2302",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 BELT TENSIONER FRAME (FRAME ONLY)",
+"partNumber": "0771-3507",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 FRONT SWIVEL CASTOR",
+"partNumber": "0780-0405",
+"brand": "Worx+"
+},
+{
+"description": "SWIVEL CASTOR WHEEL - NON LOCKING",
+"partNumber": "0780-3307",
+"brand": "Worx+"
+},
+{
+"description": "3300/5500 REPLACEMENT CASTOR WHEEL - HEAVY DUTY BRAKED",
+"partNumber": "0780-3406",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 REAR WHEEL",
+"partNumber": "0780-2102",
+"brand": "Worx+"
+},
+{
+"description": "BAGGER INFLATABLE WHEEL, RED",
+"partNumber": "0780-4205",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC BAGGER LARGE INFLATABLE WHEEL - RED",
+"partNumber": "0780-3505",
+"brand": "Worx+"
+},
+{
+"description": "55T REAR PUNCTURE PROOF WHEEL WITH PLASTIC RIM",
+"partNumber": "0780-3604",
+"brand": "Worx+"
+},
+{
+"description": "ALUMINIUM MACHINE WHEEL - 300mm",
+"partNumber": "0780-3901",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 FRONT WHEEL BRACKET",
+"partNumber": "0780-2300",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 WHEEL LOCK PIN COMPLETE - STAINLESS STEEL",
+"partNumber": "0780-3802",
+"brand": "Worx+"
+},
+{
+"description": "PG680/820 WHEEL LOCK PIN - SOLID",
+"partNumber": "0780-4106",
+"brand": "Worx+"
+},
+{
+"description": "SOLID WHEEL PIN GEN 2 PG/HTC MACHINE",
+"partNumber": "0780-4502",
+"brand": "Worx+"
+},
+{
+"description": "CASTOR WHEEL SPACER",
+"partNumber": "0780-5103",
+"brand": "Worx+"
+},
+{
+"description": "GRINDWORX KING SERIES GK-700 REMOTE CONTROLLED SELF PROPELLED INDUSTRIAL THREE PHASE CONCRETE FLOOR SURFACING MACHINE. | CONDITION: NEW | YEAR: 2026 | SERIAL NUMBER: 700.26.0.XXXX",
+"partNumber": "0812-7006",
+"brand": "Worx+"
+},
+{
+"description": "GRINDWORX KING SERIES GK-850 REMOTE CONTROLLED SELF PROPELLED INDUSTRIAL THREE PHASE CONCRETE FLOOR SURFACING MACHINE. | CONDITION: NEW | YEAR: 2026 | SERIAL NUMBER: 850.26.0.XXXX",
+"partNumber": "0812-8508",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 1250 HEAD - 220-240V",
+"partNumber": "0820-2307",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX PULSE BAC 1250 BAGGER COMPLETE - 220-240V",
+"partNumber": "0820-2406",
+"brand": "Worx+"
+},
+{
+"description": "PULSE BAC 550 COMPLETE WITH FILTERS, HOSE & WHEEL KIT",
+"partNumber": "0820-3205",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX 55T INDUSTRIAL VACUUM WITH RADIO CONTROL ON/OFF - 415V, H CLASS",
+"partNumber": "0820-4202",
+"brand": "Worx+"
+},
+{
+"description": "SINGLE CHAMBER BYPASS SEPARATOR",
+"partNumber": "0820-6107",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX ATMOS 1000 Air Scrubber",
+"partNumber": "0820-7104",
+"brand": "Worx+"
+},
+{
+"description": "AIRWORX ATMOS 2000 Air Scrubber",
+"partNumber": "0820-7203",
+"brand": "Worx+"
+},
+{
+"description": "PLANETARY SEAL TAPE",
+"partNumber": "0913-2405",
+"brand": "Worx+"
+},
+{
+"description": "STANDOFF for 5\" DUST SHROUD - SHORT",
+"partNumber": "0914-0905",
+"brand": "Worx+"
+},
+{
+"description": "STANDOFF for 5\" DUST SHROUD - LONG",
+"partNumber": "0914-0509",
+"brand": "Worx+"
+},
+{
+"description": "SILENCER MESH CYLINDER",
+"partNumber": "0934-1609",
+"brand": "Worx+"
+}
 ]
