@@ -43,6 +43,7 @@ function route() { machineId ? renderMachine(machineId) : renderHome(); }
 const link = id => location.origin + location.pathname + "?m=" + id;
 const jobsOf = id => db.jobs.filter(j => j.machineId === id).sort((a, b) => b.n - a.n);
 const openJob = id => jobsOf(id).find(j => j.status !== "quoted");
+const money = n => "$" + Number(n).toFixed(2);
 const jobNo = j => "JC-" + String(j.n).padStart(4, "0");
 
 // ---------------------------------------------------------------- HOME
@@ -195,7 +196,7 @@ function renderTech(box, job, m) {
       const set = () => {
         if (el.dataset.p != null) {
           const p = it.parts[+el.dataset.p]; p[f] = el.value;
-          if (f === "desc") { const s = allParts().find(x => x.description === el.value); if (s) { p.pn = s.partNumber; const pn = box.querySelector(`[data-i="${el.dataset.i}"][data-p="${el.dataset.p}"][data-f="pn"]`); if (pn) pn.value = s.partNumber; } }
+          if (f === "desc") { const s = allParts().find(x => x.description === el.value); p.rrp = s && s.rrp != null ? s.rrp : ""; if (s) { p.pn = s.partNumber; const pn = box.querySelector(`[data-i="${el.dataset.i}"][data-p="${el.dataset.p}"][data-f="pn"]`); if (pn) pn.value = s.partNumber; } }
         } else it[f] = el.value;
         if (job.status === "received") job.status = "diagnosing";
         save();
@@ -210,12 +211,12 @@ function renderTech(box, job, m) {
       if (el.value.trim().length < 2) { list.hidden = true; return; }
       const hits = allParts().filter(p => toks.every(t => hay(p).includes(t)));
       if (!hits.length) { list.hidden = true; return; }
-      list.innerHTML = hits.slice(0, 8).map((p, n) => `<button type="button" data-n="${n}"><span>${esc(p.description)}</span><small>${esc(p.partNumber)}${p.brand ? " &bull; " + esc(p.brand) : ""}</small></button>`).join("")
+      list.innerHTML = hits.slice(0, 8).map((p, n) => `<button type="button" data-n="${n}"><span>${esc(p.description)}</span><small>${esc(p.partNumber)}${p.brand ? " &bull; " + esc(p.brand) : ""}${p.rrp != null ? " &bull; RRP " + money(p.rrp) : ""}</small></button>`).join("")
         + (hits.length > 8 ? `<p class="more">${hits.length - 8} more &ndash; keep typing to narrow it down</p>` : "");
       list.hidden = false;
       list.querySelectorAll("button").forEach(btn => btn.onclick = () => {
         const sel = hits[+btn.dataset.n], p = job.items[+el.dataset.i].parts[+el.dataset.p];
-        p.desc = sel.description; p.pn = sel.partNumber;
+        p.desc = sel.description; p.pn = sel.partNumber; p.rrp = sel.rrp != null ? sel.rrp : "";
         el.value = sel.description;
         wrap.querySelector('[data-f="pn"]').value = sel.partNumber;
         if (job.status === "received") job.status = "diagnosing";
@@ -231,6 +232,7 @@ function renderTech(box, job, m) {
       e.preventDefault();
       const p = job.items[+el.dataset.i].parts[+el.dataset.p];
       p.desc = bits[0] || ""; if (bits[1]) p.pn = bits[1];
+      const hit = allParts().find(x => x.partNumber === p.pn); p.rrp = hit && hit.rrp != null ? hit.rrp : "";
       save(); draw();
     }));
     box.querySelectorAll("[data-save]").forEach(c => c.onchange = () => {
@@ -258,7 +260,7 @@ function renderTech(box, job, m) {
 }
 
 // ------------------------------------------------------------ ACCOUNTS
-const CSV_HEAD = ["Job No", "Date", "Company", "Contact", "Machine", "Model", "Serial", "Tech", "Work item", "Fault found", "Work completed", "Hours", "Part description", "Part number", "Qty"];
+const CSV_HEAD = ["Job No", "Date", "Company", "Contact", "Machine", "Model", "Serial", "Tech", "Work item", "Fault found", "Work completed", "Hours", "Part description", "Part number", "Qty", "RRP each"];
 const toCsv = rows => "\ufeff" + rows.map(r => r.map(v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"').join(",")).join("\r\n");
 function download(name, text) {
   const a = document.createElement("a");
@@ -269,7 +271,7 @@ function rowsFor(job, m) {
   const rows = [];
   job.items.forEach((it, i) => {
     const parts = it.parts.filter(p => p.desc || p.pn || p.qty);
-    (parts.length ? parts : [{ desc: "", pn: "", qty: "" }]).forEach(p => rows.push([jobNo(job), job.date, m.company, m.contact, m.name, m.model, m.serial, job.tech, i + 1, it.fault, it.work, it.hours, p.desc, p.pn, p.qty]));
+    (parts.length ? parts : [{ desc: "", pn: "", qty: "" }]).forEach(p => rows.push([jobNo(job), job.date, m.company, m.contact, m.name, m.model, m.serial, job.tech, i + 1, it.fault, it.work, it.hours, p.desc, p.pn, p.qty, p.rrp == null ? "" : p.rrp]));
   });
   return rows;
 }
@@ -295,7 +297,7 @@ function renderAccounts(box, job, m, readonly) {
         <h3>Work item #${i + 1} &ndash; ${it.hours ? esc(it.hours) + " h" : "no hours"}</h3>
         ${it.fault ? `<p class="muted"><b>Found:</b> ${esc(it.fault)}</p>` : ""}
         <p style="margin:0 0 8px;white-space:pre-wrap">${esc(it.work)}</p>
-        ${it.parts.some(p => p.desc || p.pn) ? `<table class="partsum"><tr><th>Part</th><th>Number</th><th>Qty</th></tr>${it.parts.filter(p => p.desc || p.pn).map(p => `<tr><td>${esc(p.desc)}</td><td>${esc(p.pn)}</td><td>${esc(p.qty)}</td></tr>`).join("")}</table>` : `<p class="muted">No parts.</p>`}`).join("")}
+        ${it.parts.some(p => p.desc || p.pn) ? `<table class="partsum"><tr><th>Part</th><th>Number</th><th>Qty</th><th>RRP</th></tr>${it.parts.filter(p => p.desc || p.pn).map(p => `<tr><td>${esc(p.desc)}</td><td>${esc(p.pn)}</td><td>${esc(p.qty)}</td><td>${p.rrp !== "" && p.rrp != null ? esc(money(p.rrp)) : "&ndash;"}</td></tr>`).join("")}</table>` : `<p class="muted">No parts.</p>`}`).join("")}
       <div class="actions">
         <button class="btn" id="csv" type="button" style="margin-top:0">Download Excel file (.csv)</button>
         ${readonly ? "" : `<a class="btn2" href="mailto:${esc(ACCOUNTS_EMAIL)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}">Email accounts the link</a>`}
